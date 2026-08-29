@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏丹的游戏 - 高级存档编辑器 v8</title>
+    <style>
+    /* Tailwind CSS v3 — precompiled static (inline, offline) */
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.my-1{margin-top:.25rem}.mb-1,.my-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mt-1{margin-top:.25rem}.mt-10{margin-top:2.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:.25rem}.h-2{height:.5rem}.h-8{height:2rem}.h-auto{height:auto}.min-h-\[120px\]{min-height:120px}.min-h-\[380px\]{min-height:380px}.min-h-\[60px\]{min-height:60px}.min-h-screen{min-height:100vh}.w-16{width:4rem}.w-20{width:5rem}.w-24{width:6rem}.w-28{width:7rem}.w-32{width:8rem}.w-40{width:10rem}.w-8{width:2rem}.w-\[220px\]{width:220px}.w-full{width:100%}.max-w-3xl{max-width:48rem}.flex-1{flex:1 1 0%}.flex-shrink{flex-shrink:1}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}.border-separate{border-collapse:separate}.cursor-pointer{cursor:pointer}.grid-flow-row{grid-auto-flow:row}.grid-flow-col{grid-auto-flow:column}.grid-flow-dense{grid-auto-flow:dense}.grid-flow-row-dense{grid-auto-flow:row dense}.grid-flow-col-dense{grid-auto-flow:column dense}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-row-reverse{flex-direction:row-reverse}.flex-col{flex-direction:column}.flex-col-reverse{flex-direction:column-reverse}.flex-wrap{flex-wrap:wrap}.flex-wrap-reverse{flex-wrap:wrap-reverse}.flex-nowrap{flex-wrap:nowrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.items-stretch{align-items:stretch}.justify-normal{justify-content:normal}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.justify-evenly{justify-content:space-evenly}.justify-stretch{justify-content:stretch}.justify-items-start{justify-items:start}.justify-items-end{justify-items:end}.justify-items-center{justify-items:center}.justify-items-stretch{justify-items:stretch}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.space-y-reverse>:not([hidden])~:not([hidden]){--tw-space-y-reverse:1}.space-x-reverse>:not([hidden])~:not([hidden]){--tw-space-x-reverse:1}.justify-self-auto{justify-self:auto}.justify-self-start{justify-self:start}.justify-self-end{justify-self:end}.justify-self-center{justify-self:center}.justify-self-stretch{justify-self:stretch}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-clip{overflow:clip}.overflow-visible{overflow:visible}.overflow-scroll{overflow:scroll}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-y-hidden{overflow-y:hidden}.overflow-x-clip{overflow-x:clip}.overflow-y-clip{overflow-y:clip}.overflow-x-visible{overflow-x:visible}.overflow-y-visible{overflow-y:visible}.overflow-x-scroll{overflow-x:scroll}.overflow-y-scroll{overflow-y:scroll}.truncate{overflow:hidden;white-space:nowrap}.overflow-ellipsis,.text-ellipsis,.truncate{text-overflow:ellipsis}.text-clip{text-overflow:clip}.text-wrap{text-wrap:wrap}.text-nowrap{text-wrap:nowrap}.text-balance{text-wrap:balance}.text-pretty{text-wrap:pretty}.rounded-lg{border-radius:.5rem}.rounded-b{border-bottom-right-radius:.25rem;border-bottom-left-radius:.25rem}.rounded-e{border-start-end-radius:.25rem;border-end-end-radius:.25rem}.rounded-l{border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}.rounded-r{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}.rounded-s{border-start-start-radius:.25rem;border-end-start-radius:.25rem}.rounded-t{border-top-left-radius:.25rem;border-top-right-radius:.25rem}.rounded-bl{border-bottom-left-radius:.25rem}.rounded-br{border-bottom-right-radius:.25rem}.rounded-ee{border-end-end-radius:.25rem}.rounded-es{border-end-start-radius:.25rem}.rounded-se{border-start-end-radius:.25rem}.rounded-ss{border-start-start-radius:.25rem}.rounded-tl{border-top-left-radius:.25rem}.rounded-tr{border-top-right-radius:.25rem}.border-x{border-left-width:1px;border-right-width:1px}.border-y{border-top-width:1px}.border-b,.border-y{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-e{border-inline-end-width:1px}.border-l{border-left-width:1px}.border-r{border-right-width:1px}.border-s{border-inline-start-width:1px}.border-t{border-top-width:1px}.border-solid{border-style:solid}.border-dashed{border-style:dashed}.border-dotted{border-style:dotted}.border-double{border-style:double}.border-hidden{border-style:hidden}.border-none{border-style:none}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity,1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105/var(--tw-border-opacity,1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85/var(--tw-border-opacity,1))}.border-transparent{border-color:transparent}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity,1))}.bg-amber-700{--tw-bg-opacity:1;background-color:rgb(180 83 9/var(--tw-bg-opacity,1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity,1))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity,1))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity,1))}.bg-orange-950{--tw-bg-opacity:1;background-color:rgb(67 20 7/var(--tw-bg-opacity,1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity,1))}.bg-red-700{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity,1))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity,1))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity,1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85/var(--tw-bg-opacity,1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42/var(--tw-bg-opacity,1))}.bg-slate-900\/60{background-color:rgba(15,23,42,.6)}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity,1))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity,1))}.bg-fixed{background-attachment:fixed}.bg-local{background-attachment:local}.bg-scroll{background-attachment:scroll}.bg-clip-border{background-clip:border-box}.bg-clip-padding{background-clip:padding-box}.bg-clip-content{background-clip:content-box}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.bg-repeat{background-repeat:repeat}.bg-no-repeat{background-repeat:no-repeat}.bg-repeat-x{background-repeat:repeat-x}.bg-repeat-y{background-repeat:repeat-y}.bg-repeat-round{background-repeat:round}.bg-repeat-space{background-repeat:space}.bg-origin-border{background-origin:border-box}.bg-origin-padding{background-origin:padding-box}.bg-origin-content{background-origin:content-box}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-3{padding-bottom:.75rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-justify{text-align:justify}.text-start{text-align:start}.text-end{text-align:end}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-normal{font-weight:400}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77/var(--tw-text-opacity,1))}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250/var(--tw-text-opacity,1))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity,1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.text-orange-300{--tw-text-opacity:1;color:rgb(253 186 116/var(--tw-text-opacity,1))}.text-purple-300{--tw-text-opacity:1;color:rgb(216 180 254/var(--tw-text-opacity,1))}.text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity,1))}.text-violet-300{--tw-text-opacity:1;color:rgb(196 181 253/var(--tw-text-opacity,1))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity,1))}.bg-blend-normal{background-blend-mode:normal}.bg-blend-multiply{background-blend-mode:multiply}.bg-blend-screen{background-blend-mode:screen}.bg-blend-overlay{background-blend-mode:overlay}.bg-blend-darken{background-blend-mode:darken}.bg-blend-lighten{background-blend-mode:lighten}.bg-blend-color-dodge{background-blend-mode:color-dodge}.bg-blend-color-burn{background-blend-mode:color-burn}.bg-blend-hard-light{background-blend-mode:hard-light}.bg-blend-soft-light{background-blend-mode:soft-light}.bg-blend-difference{background-blend-mode:difference}.bg-blend-exclusion{background-blend-mode:exclusion}.bg-blend-hue{background-blend-mode:hue}.bg-blend-saturation{background-blend-mode:saturation}.bg-blend-color{background-blend-mode:color}.bg-blend-luminosity{background-blend-mode:luminosity}.outline-none{outline:2px solid transparent;outline-offset:2px}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring-inset{--tw-ring-inset:inset}.ring-blue-400{--tw-ring-opacity:1;--tw-ring-color:rgb(96 165 250/var(--tw-ring-opacity,1))}.hover\:bg-amber-700:hover{--tw-bg-opacity:1;background-color:rgb(180 83 9/var(--tw-bg-opacity,1))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity,1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87/var(--tw-bg-opacity,1))}.hover\:bg-indigo-700:hover{--tw-bg-opacity:1;background-color:rgb(67 56 202/var(--tw-bg-opacity,1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity,1))}.disabled\:opacity-40:disabled{opacity:.4}
+    </style>
+    <script>
+    /* JSON5 (inlined for offline use) */
+!function(u,D){"object"==typeof exports&&"undefined"!=typeof module?module.exports=D():"function"==typeof define&&define.amd?define(D):u.JSON5=D()}(this,function(){"use strict";function u(u,D){return u(D={exports:{}},D.exports),D.exports}var D=u(function(u){var D=u.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=D)}),e=u(function(u){var D=u.exports={version:"2.6.5"};"number"==typeof __e&&(__e=D)}),r=(e.version,function(u){return"object"==typeof u?null!==u:"function"==typeof u}),t=function(u){if(!r(u))throw TypeError(u+" is not an object!");return u},n=function(u){try{return!!u()}catch(u){return!0}},F=!n(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a}),C=D.document,A=r(C)&&r(C.createElement),i=!F&&!n(function(){return 7!=Object.defineProperty((u="div",A?C.createElement(u):{}),"a",{get:function(){return 7}}).a;var u}),E=Object.defineProperty,o={f:F?Object.defineProperty:function(u,D,e){if(t(u),D=function(u,D){if(!r(u))return u;var e,t;if(D&&"function"==typeof(e=u.toString)&&!r(t=e.call(u)))return t;if("function"==typeof(e=u.valueOf)&&!r(t=e.call(u)))return t;if(!D&&"function"==typeof(e=u.toString)&&!r(t=e.call(u)))return t;throw TypeError("Can't convert object to primitive value")}(D,!0),t(e),i)try{return E(u,D,e)}catch(u){}if("get"in e||"set"in e)throw TypeError("Accessors not supported!");return"value"in e&&(u[D]=e.value),u}},a=F?function(u,D,e){return o.f(u,D,function(u,D){return{enumerable:!(1&u),configurable:!(2&u),writable:!(4&u),value:D}}(1,e))}:function(u,D,e){return u[D]=e,u},c={}.hasOwnProperty,B=function(u,D){return c.call(u,D)},s=0,f=Math.random(),l=u(function(u){var r=D["__core-js_shared__"]||(D["__core-js_shared__"]={});(u.exports=function(u,D){return r[u]||(r[u]=void 0!==D?D:{})})("versions",[]).push({version:e.version,mode:"global",copyright:"© 2019 Denis Pushkarev (zloirock.ru)"})})("native-function-to-string",Function.toString),d=u(function(u){var r,t="Symbol(".concat(void 0===(r="src")?"":r,")_",(++s+f).toString(36)),n=(""+l).split("toString");e.inspectSource=function(u){return l.call(u)},(u.exports=function(u,e,r,F){var C="function"==typeof r;C&&(B(r,"name")||a(r,"name",e)),u[e]!==r&&(C&&(B(r,t)||a(r,t,u[e]?""+u[e]:n.join(String(e)))),u===D?u[e]=r:F?u[e]?u[e]=r:a(u,e,r):(delete u[e],a(u,e,r)))})(Function.prototype,"toString",function(){return"function"==typeof this&&this[t]||l.call(this)})}),v=function(u,D,e){if(function(u){if("function"!=typeof u)throw TypeError(u+" is not a function!")}(u),void 0===D)return u;switch(e){case 1:return function(e){return u.call(D,e)};case 2:return function(e,r){return u.call(D,e,r)};case 3:return function(e,r,t){return u.call(D,e,r,t)}}return function(){return u.apply(D,arguments)}},p=function(u,r,t){var n,F,C,A,i=u&p.F,E=u&p.G,o=u&p.S,c=u&p.P,B=u&p.B,s=E?D:o?D[r]||(D[r]={}):(D[r]||{}).prototype,f=E?e:e[r]||(e[r]={}),l=f.prototype||(f.prototype={});for(n in E&&(t=r),t)C=((F=!i&&s&&void 0!==s[n])?s:t)[n],A=B&&F?v(C,D):c&&"function"==typeof C?v(Function.call,C):C,s&&d(s,n,C,u&p.U),f[n]!=C&&a(f,n,A),c&&l[n]!=C&&(l[n]=C)};D.core=e,p.F=1,p.G=2,p.S=4,p.P=8,p.B=16,p.W=32,p.U=64,p.R=128;var h,m=p,g=Math.ceil,y=Math.floor,w=function(u){return isNaN(u=+u)?0:(u>0?y:g)(u)},b=(h=!1,function(u,D){var e,r,t=String(function(u){if(null==u)throw TypeError("Can't call method on  "+u);return u}(u)),n=w(D),F=t.length;return n<0||n>=F?h?"":void 0:(e=t.charCodeAt(n))<55296||e>56319||n+1===F||(r=t.charCodeAt(n+1))<56320||r>57343?h?t.charAt(n):e:h?t.slice(n,n+2):r-56320+(e-55296<<10)+65536});m(m.P,"String",{codePointAt:function(u){return b(this,u)}});e.String.codePointAt;var S=Math.max,x=Math.min,N=String.fromCharCode,P=String.fromCodePoint;m(m.S+m.F*(!!P&&1!=P.length),"String",{fromCodePoint:function(u){for(var D,e,r,t=arguments,n=[],F=arguments.length,C=0;F>C;){if(D=+t[C++],r=1114111,((e=w(e=D))<0?S(e+r,0):x(e,r))!==D)throw RangeError(D+" is not a valid code point");n.push(D<65536?N(D):N(55296+((D-=65536)>>10),D%1024+56320))}return n.join("")}});e.String.fromCodePoint;var _,O,j,I,V,J,M,k,L,T,z,H,$,R,G={Space_Separator:/[\u1680\u2000-\u200A\u202F\u205F\u3000]/,ID_Start:/[\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0561-\u0587\u05D0-\u05EA\u05F0-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u0860-\u086A\u08A0-\u08B4\u08B6-\u08BD\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u09FC\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16EE-\u16F8\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1877\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1CE9-\u1CEC\u1CEE-\u1CF1\u1CF5\u1CF6\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2160-\u2188\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005-\u3007\u3021-\u3029\u3031-\u3035\u3038-\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312E\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FEA\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6EF\uA717-\uA71F\uA722-\uA788\uA78B-\uA7AE\uA7B0-\uA7B7\uA7F7-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB65\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC]|\uD800[\uDC00-\uDC0B\uDC0D-\uDC26\uDC28-\uDC3A\uDC3C\uDC3D\uDC3F-\uDC4D\uDC50-\uDC5D\uDC80-\uDCFA\uDD40-\uDD74\uDE80-\uDE9C\uDEA0-\uDED0\uDF00-\uDF1F\uDF2D-\uDF4A\uDF50-\uDF75\uDF80-\uDF9D\uDFA0-\uDFC3\uDFC8-\uDFCF\uDFD1-\uDFD5]|\uD801[\uDC00-\uDC9D\uDCB0-\uDCD3\uDCD8-\uDCFB\uDD00-\uDD27\uDD30-\uDD63\uDE00-\uDF36\uDF40-\uDF55\uDF60-\uDF67]|\uD802[\uDC00-\uDC05\uDC08\uDC0A-\uDC35\uDC37\uDC38\uDC3C\uDC3F-\uDC55\uDC60-\uDC76\uDC80-\uDC9E\uDCE0-\uDCF2\uDCF4\uDCF5\uDD00-\uDD15\uDD20-\uDD39\uDD80-\uDDB7\uDDBE\uDDBF\uDE00\uDE10-\uDE13\uDE15-\uDE17\uDE19-\uDE33\uDE60-\uDE7C\uDE80-\uDE9C\uDEC0-\uDEC7\uDEC9-\uDEE4\uDF00-\uDF35\uDF40-\uDF55\uDF60-\uDF72\uDF80-\uDF91]|\uD803[\uDC00-\uDC48\uDC80-\uDCB2\uDCC0-\uDCF2]|\uD804[\uDC03-\uDC37\uDC83-\uDCAF\uDCD0-\uDCE8\uDD03-\uDD26\uDD50-\uDD72\uDD76\uDD83-\uDDB2\uDDC1-\uDDC4\uDDDA\uDDDC\uDE00-\uDE11\uDE13-\uDE2B\uDE80-\uDE86\uDE88\uDE8A-\uDE8D\uDE8F-\uDE9D\uDE9F-\uDEA8\uDEB0-\uDEDE\uDF05-\uDF0C\uDF0F\uDF10\uDF13-\uDF28\uDF2A-\uDF30\uDF32\uDF33\uDF35-\uDF39\uDF3D\uDF50\uDF5D-\uDF61]|\uD805[\uDC00-\uDC34\uDC47-\uDC4A\uDC80-\uDCAF\uDCC4\uDCC5\uDCC7\uDD80-\uDDAE\uDDD8-\uDDDB\uDE00-\uDE2F\uDE44\uDE80-\uDEAA\uDF00-\uDF19]|\uD806[\uDCA0-\uDCDF\uDCFF\uDE00\uDE0B-\uDE32\uDE3A\uDE50\uDE5C-\uDE83\uDE86-\uDE89\uDEC0-\uDEF8]|\uD807[\uDC00-\uDC08\uDC0A-\uDC2E\uDC40\uDC72-\uDC8F\uDD00-\uDD06\uDD08\uDD09\uDD0B-\uDD30\uDD46]|\uD808[\uDC00-\uDF99]|\uD809[\uDC00-\uDC6E\uDC80-\uDD43]|[\uD80C\uD81C-\uD820\uD840-\uD868\uD86A-\uD86C\uD86F-\uD872\uD874-\uD879][\uDC00-\uDFFF]|\uD80D[\uDC00-\uDC2E]|\uD811[\uDC00-\uDE46]|\uD81A[\uDC00-\uDE38\uDE40-\uDE5E\uDED0-\uDEED\uDF00-\uDF2F\uDF40-\uDF43\uDF63-\uDF77\uDF7D-\uDF8F]|\uD81B[\uDF00-\uDF44\uDF50\uDF93-\uDF9F\uDFE0\uDFE1]|\uD821[\uDC00-\uDFEC]|\uD822[\uDC00-\uDEF2]|\uD82C[\uDC00-\uDD1E\uDD70-\uDEFB]|\uD82F[\uDC00-\uDC6A\uDC70-\uDC7C\uDC80-\uDC88\uDC90-\uDC99]|\uD835[\uDC00-\uDC54\uDC56-\uDC9C\uDC9E\uDC9F\uDCA2\uDCA5\uDCA6\uDCA9-\uDCAC\uDCAE-\uDCB9\uDCBB\uDCBD-\uDCC3\uDCC5-\uDD05\uDD07-\uDD0A\uDD0D-\uDD14\uDD16-\uDD1C\uDD1E-\uDD39\uDD3B-\uDD3E\uDD40-\uDD44\uDD46\uDD4A-\uDD50\uDD52-\uDEA5\uDEA8-\uDEC0\uDEC2-\uDEDA\uDEDC-\uDEFA\uDEFC-\uDF14\uDF16-\uDF34\uDF36-\uDF4E\uDF50-\uDF6E\uDF70-\uDF88\uDF8A-\uDFA8\uDFAA-\uDFC2\uDFC4-\uDFCB]|\uD83A[\uDC00-\uDCC4\uDD00-\uDD43]|\uD83B[\uDE00-\uDE03\uDE05-\uDE1F\uDE21\uDE22\uDE24\uDE27\uDE29-\uDE32\uDE34-\uDE37\uDE39\uDE3B\uDE42\uDE47\uDE49\uDE4B\uDE4D-\uDE4F\uDE51\uDE52\uDE54\uDE57\uDE59\uDE5B\uDE5D\uDE5F\uDE61\uDE62\uDE64\uDE67-\uDE6A\uDE6C-\uDE72\uDE74-\uDE77\uDE79-\uDE7C\uDE7E\uDE80-\uDE89\uDE8B-\uDE9B\uDEA1-\uDEA3\uDEA5-\uDEA9\uDEAB-\uDEBB]|\uD869[\uDC00-\uDED6\uDF00-\uDFFF]|\uD86D[\uDC00-\uDF34\uDF40-\uDFFF]|\uD86E[\uDC00-\uDC1D\uDC20-\uDFFF]|\uD873[\uDC00-\uDEA1\uDEB0-\uDFFF]|\uD87A[\uDC00-\uDFE0]|\uD87E[\uDC00-\uDE1D]/,ID_Continue:/[\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0300-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u0483-\u0487\u048A-\u052F\u0531-\u0556\u0559\u0561-\u0587\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7\u05D0-\u05EA\u05F0-\u05F2\u0610-\u061A\u0620-\u0669\u066E-\u06D3\u06D5-\u06DC\u06DF-\u06E8\u06EA-\u06FC\u06FF\u0710-\u074A\u074D-\u07B1\u07C0-\u07F5\u07FA\u0800-\u082D\u0840-\u085B\u0860-\u086A\u08A0-\u08B4\u08B6-\u08BD\u08D4-\u08E1\u08E3-\u0963\u0966-\u096F\u0971-\u0983\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BC-\u09C4\u09C7\u09C8\u09CB-\u09CE\u09D7\u09DC\u09DD\u09DF-\u09E3\u09E6-\u09F1\u09FC\u0A01-\u0A03\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A3C\u0A3E-\u0A42\u0A47\u0A48\u0A4B-\u0A4D\u0A51\u0A59-\u0A5C\u0A5E\u0A66-\u0A75\u0A81-\u0A83\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABC-\u0AC5\u0AC7-\u0AC9\u0ACB-\u0ACD\u0AD0\u0AE0-\u0AE3\u0AE6-\u0AEF\u0AF9-\u0AFF\u0B01-\u0B03\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3C-\u0B44\u0B47\u0B48\u0B4B-\u0B4D\u0B56\u0B57\u0B5C\u0B5D\u0B5F-\u0B63\u0B66-\u0B6F\u0B71\u0B82\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BBE-\u0BC2\u0BC6-\u0BC8\u0BCA-\u0BCD\u0BD0\u0BD7\u0BE6-\u0BEF\u0C00-\u0C03\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D-\u0C44\u0C46-\u0C48\u0C4A-\u0C4D\u0C55\u0C56\u0C58-\u0C5A\u0C60-\u0C63\u0C66-\u0C6F\u0C80-\u0C83\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBC-\u0CC4\u0CC6-\u0CC8\u0CCA-\u0CCD\u0CD5\u0CD6\u0CDE\u0CE0-\u0CE3\u0CE6-\u0CEF\u0CF1\u0CF2\u0D00-\u0D03\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D44\u0D46-\u0D48\u0D4A-\u0D4E\u0D54-\u0D57\u0D5F-\u0D63\u0D66-\u0D6F\u0D7A-\u0D7F\u0D82\u0D83\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0DCA\u0DCF-\u0DD4\u0DD6\u0DD8-\u0DDF\u0DE6-\u0DEF\u0DF2\u0DF3\u0E01-\u0E3A\u0E40-\u0E4E\u0E50-\u0E59\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB9\u0EBB-\u0EBD\u0EC0-\u0EC4\u0EC6\u0EC8-\u0ECD\u0ED0-\u0ED9\u0EDC-\u0EDF\u0F00\u0F18\u0F19\u0F20-\u0F29\u0F35\u0F37\u0F39\u0F3E-\u0F47\u0F49-\u0F6C\u0F71-\u0F84\u0F86-\u0F97\u0F99-\u0FBC\u0FC6\u1000-\u1049\u1050-\u109D\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u135D-\u135F\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16EE-\u16F8\u1700-\u170C\u170E-\u1714\u1720-\u1734\u1740-\u1753\u1760-\u176C\u176E-\u1770\u1772\u1773\u1780-\u17D3\u17D7\u17DC\u17DD\u17E0-\u17E9\u180B-\u180D\u1810-\u1819\u1820-\u1877\u1880-\u18AA\u18B0-\u18F5\u1900-\u191E\u1920-\u192B\u1930-\u193B\u1946-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u19D0-\u19D9\u1A00-\u1A1B\u1A20-\u1A5E\u1A60-\u1A7C\u1A7F-\u1A89\u1A90-\u1A99\u1AA7\u1AB0-\u1ABD\u1B00-\u1B4B\u1B50-\u1B59\u1B6B-\u1B73\u1B80-\u1BF3\u1C00-\u1C37\u1C40-\u1C49\u1C4D-\u1C7D\u1C80-\u1C88\u1CD0-\u1CD2\u1CD4-\u1CF9\u1D00-\u1DF9\u1DFB-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u203F\u2040\u2054\u2071\u207F\u2090-\u209C\u20D0-\u20DC\u20E1\u20E5-\u20F0\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2160-\u2188\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D7F-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2DE0-\u2DFF\u2E2F\u3005-\u3007\u3021-\u302F\u3031-\u3035\u3038-\u303C\u3041-\u3096\u3099\u309A\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312E\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FEA\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA62B\uA640-\uA66F\uA674-\uA67D\uA67F-\uA6F1\uA717-\uA71F\uA722-\uA788\uA78B-\uA7AE\uA7B0-\uA7B7\uA7F7-\uA827\uA840-\uA873\uA880-\uA8C5\uA8D0-\uA8D9\uA8E0-\uA8F7\uA8FB\uA8FD\uA900-\uA92D\uA930-\uA953\uA960-\uA97C\uA980-\uA9C0\uA9CF-\uA9D9\uA9E0-\uA9FE\uAA00-\uAA36\uAA40-\uAA4D\uAA50-\uAA59\uAA60-\uAA76\uAA7A-\uAAC2\uAADB-\uAADD\uAAE0-\uAAEF\uAAF2-\uAAF6\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB65\uAB70-\uABEA\uABEC\uABED\uABF0-\uABF9\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE00-\uFE0F\uFE20-\uFE2F\uFE33\uFE34\uFE4D-\uFE4F\uFE70-\uFE74\uFE76-\uFEFC\uFF10-\uFF19\uFF21-\uFF3A\uFF3F\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC]|\uD800[\uDC00-\uDC0B\uDC0D-\uDC26\uDC28-\uDC3A\uDC3C\uDC3D\uDC3F-\uDC4D\uDC50-\uDC5D\uDC80-\uDCFA\uDD40-\uDD74\uDDFD\uDE80-\uDE9C\uDEA0-\uDED0\uDEE0\uDF00-\uDF1F\uDF2D-\uDF4A\uDF50-\uDF7A\uDF80-\uDF9D\uDFA0-\uDFC3\uDFC8-\uDFCF\uDFD1-\uDFD5]|\uD801[\uDC00-\uDC9D\uDCA0-\uDCA9\uDCB0-\uDCD3\uDCD8-\uDCFB\uDD00-\uDD27\uDD30-\uDD63\uDE00-\uDF36\uDF40-\uDF55\uDF60-\uDF67]|\uD802[\uDC00-\uDC05\uDC08\uDC0A-\uDC35\uDC37\uDC38\uDC3C\uDC3F-\uDC55\uDC60-\uDC76\uDC80-\uDC9E\uDCE0-\uDCF2\uDCF4\uDCF5\uDD00-\uDD15\uDD20-\uDD39\uDD80-\uDDB7\uDDBE\uDDBF\uDE00-\uDE03\uDE05\uDE06\uDE0C-\uDE13\uDE15-\uDE17\uDE19-\uDE33\uDE38-\uDE3A\uDE3F\uDE60-\uDE7C\uDE80-\uDE9C\uDEC0-\uDEC7\uDEC9-\uDEE6\uDF00-\uDF35\uDF40-\uDF55\uDF60-\uDF72\uDF80-\uDF91]|\uD803[\uDC00-\uDC48\uDC80-\uDCB2\uDCC0-\uDCF2]|\uD804[\uDC00-\uDC46\uDC66-\uDC6F\uDC7F-\uDCBA\uDCD0-\uDCE8\uDCF0-\uDCF9\uDD00-\uDD34\uDD36-\uDD3F\uDD50-\uDD73\uDD76\uDD80-\uDDC4\uDDCA-\uDDCC\uDDD0-\uDDDA\uDDDC\uDE00-\uDE11\uDE13-\uDE37\uDE3E\uDE80-\uDE86\uDE88\uDE8A-\uDE8D\uDE8F-\uDE9D\uDE9F-\uDEA8\uDEB0-\uDEEA\uDEF0-\uDEF9\uDF00-\uDF03\uDF05-\uDF0C\uDF0F\uDF10\uDF13-\uDF28\uDF2A-\uDF30\uDF32\uDF33\uDF35-\uDF39\uDF3C-\uDF44\uDF47\uDF48\uDF4B-\uDF4D\uDF50\uDF57\uDF5D-\uDF63\uDF66-\uDF6C\uDF70-\uDF74]|\uD805[\uDC00-\uDC4A\uDC50-\uDC59\uDC80-\uDCC5\uDCC7\uDCD0-\uDCD9\uDD80-\uDDB5\uDDB8-\uDDC0\uDDD8-\uDDDD\uDE00-\uDE40\uDE44\uDE50-\uDE59\uDE80-\uDEB7\uDEC0-\uDEC9\uDF00-\uDF19\uDF1D-\uDF2B\uDF30-\uDF39]|\uD806[\uDCA0-\uDCE9\uDCFF\uDE00-\uDE3E\uDE47\uDE50-\uDE83\uDE86-\uDE99\uDEC0-\uDEF8]|\uD807[\uDC00-\uDC08\uDC0A-\uDC36\uDC38-\uDC40\uDC50-\uDC59\uDC72-\uDC8F\uDC92-\uDCA7\uDCA9-\uDCB6\uDD00-\uDD06\uDD08\uDD09\uDD0B-\uDD36\uDD3A\uDD3C\uDD3D\uDD3F-\uDD47\uDD50-\uDD59]|\uD808[\uDC00-\uDF99]|\uD809[\uDC00-\uDC6E\uDC80-\uDD43]|[\uD80C\uD81C-\uD820\uD840-\uD868\uD86A-\uD86C\uD86F-\uD872\uD874-\uD879][\uDC00-\uDFFF]|\uD80D[\uDC00-\uDC2E]|\uD811[\uDC00-\uDE46]|\uD81A[\uDC00-\uDE38\uDE40-\uDE5E\uDE60-\uDE69\uDED0-\uDEED\uDEF0-\uDEF4\uDF00-\uDF36\uDF40-\uDF43\uDF50-\uDF59\uDF63-\uDF77\uDF7D-\uDF8F]|\uD81B[\uDF00-\uDF44\uDF50-\uDF7E\uDF8F-\uDF9F\uDFE0\uDFE1]|\uD821[\uDC00-\uDFEC]|\uD822[\uDC00-\uDEF2]|\uD82C[\uDC00-\uDD1E\uDD70-\uDEFB]|\uD82F[\uDC00-\uDC6A\uDC70-\uDC7C\uDC80-\uDC88\uDC90-\uDC99\uDC9D\uDC9E]|\uD834[\uDD65-\uDD69\uDD6D-\uDD72\uDD7B-\uDD82\uDD85-\uDD8B\uDDAA-\uDDAD\uDE42-\uDE44]|\uD835[\uDC00-\uDC54\uDC56-\uDC9C\uDC9E\uDC9F\uDCA2\uDCA5\uDCA6\uDCA9-\uDCAC\uDCAE-\uDCB9\uDCBB\uDCBD-\uDCC3\uDCC5-\uDD05\uDD07-\uDD0A\uDD0D-\uDD14\uDD16-\uDD1C\uDD1E-\uDD39\uDD3B-\uDD3E\uDD40-\uDD44\uDD46\uDD4A-\uDD50\uDD52-\uDEA5\uDEA8-\uDEC0\uDEC2-\uDEDA\uDEDC-\uDEFA\uDEFC-\uDF14\uDF16-\uDF34\uDF36-\uDF4E\uDF50-\uDF6E\uDF70-\uDF88\uDF8A-\uDFA8\uDFAA-\uDFC2\uDFC4-\uDFCB\uDFCE-\uDFFF]|\uD836[\uDE00-\uDE36\uDE3B-\uDE6C\uDE75\uDE84\uDE9B-\uDE9F\uDEA1-\uDEAF]|\uD838[\uDC00-\uDC06\uDC08-\uDC18\uDC1B-\uDC21\uDC23\uDC24\uDC26-\uDC2A]|\uD83A[\uDC00-\uDCC4\uDCD0-\uDCD6\uDD00-\uDD4A\uDD50-\uDD59]|\uD83B[\uDE00-\uDE03\uDE05-\uDE1F\uDE21\uDE22\uDE24\uDE27\uDE29-\uDE32\uDE34-\uDE37\uDE39\uDE3B\uDE42\uDE47\uDE49\uDE4B\uDE4D-\uDE4F\uDE51\uDE52\uDE54\uDE57\uDE59\uDE5B\uDE5D\uDE5F\uDE61\uDE62\uDE64\uDE67-\uDE6A\uDE6C-\uDE72\uDE74-\uDE77\uDE79-\uDE7C\uDE7E\uDE80-\uDE89\uDE8B-\uDE9B\uDEA1-\uDEA3\uDEA5-\uDEA9\uDEAB-\uDEBB]|\uD869[\uDC00-\uDED6\uDF00-\uDFFF]|\uD86D[\uDC00-\uDF34\uDF40-\uDFFF]|\uD86E[\uDC00-\uDC1D\uDC20-\uDFFF]|\uD873[\uDC00-\uDEA1\uDEB0-\uDFFF]|\uD87A[\uDC00-\uDFE0]|\uD87E[\uDC00-\uDE1D]|\uDB40[\uDD00-\uDDEF]/},U={isSpaceSeparator:function(u){return"string"==typeof u&&G.Space_Separator.test(u)},isIdStartChar:function(u){return"string"==typeof u&&(u>="a"&&u<="z"||u>="A"&&u<="Z"||"$"===u||"_"===u||G.ID_Start.test(u))},isIdContinueChar:function(u){return"string"==typeof u&&(u>="a"&&u<="z"||u>="A"&&u<="Z"||u>="0"&&u<="9"||"$"===u||"_"===u||"‌"===u||"‍"===u||G.ID_Continue.test(u))},isDigit:function(u){return"string"==typeof u&&/[0-9]/.test(u)},isHexDigit:function(u){return"string"==typeof u&&/[0-9A-Fa-f]/.test(u)}};function Z(){for(T="default",z="",H=!1,$=1;;){R=q();var u=X[T]();if(u)return u}}function q(){if(_[I])return String.fromCodePoint(_.codePointAt(I))}function W(){var u=q();return"\n"===u?(V++,J=0):u?J+=u.length:J++,u&&(I+=u.length),u}var X={default:function(){switch(R){case"\t":case"\v":case"\f":case" ":case" ":case"\ufeff":case"\n":case"\r":case"\u2028":case"\u2029":return void W();case"/":return W(),void(T="comment");case void 0:return W(),K("eof")}if(!U.isSpaceSeparator(R))return X[O]();W()},comment:function(){switch(R){case"*":return W(),void(T="multiLineComment");case"/":return W(),void(T="singleLineComment")}throw ru(W())},multiLineComment:function(){switch(R){case"*":return W(),void(T="multiLineCommentAsterisk");case void 0:throw ru(W())}W()},multiLineCommentAsterisk:function(){switch(R){case"*":return void W();case"/":return W(),void(T="default");case void 0:throw ru(W())}W(),T="multiLineComment"},singleLineComment:function(){switch(R){case"\n":case"\r":case"\u2028":case"\u2029":return W(),void(T="default");case void 0:return W(),K("eof")}W()},value:function(){switch(R){case"{":case"[":return K("punctuator",W());case"n":return W(),Q("ull"),K("null",null);case"t":return W(),Q("rue"),K("boolean",!0);case"f":return W(),Q("alse"),K("boolean",!1);case"-":case"+":return"-"===W()&&($=-1),void(T="sign");case".":return z=W(),void(T="decimalPointLeading");case"0":return z=W(),void(T="zero");case"1":case"2":case"3":case"4":case"5":case"6":case"7":case"8":case"9":return z=W(),void(T="decimalInteger");case"I":return W(),Q("nfinity"),K("numeric",1/0);case"N":return W(),Q("aN"),K("numeric",NaN);case'"':case"'":return H='"'===W(),z="",void(T="string")}throw ru(W())},identifierNameStartEscape:function(){if("u"!==R)throw ru(W());W();var u=Y();switch(u){case"$":case"_":break;default:if(!U.isIdStartChar(u))throw nu()}z+=u,T="identifierName"},identifierName:function(){switch(R){case"$":case"_":case"‌":case"‍":return void(z+=W());case"\\":return W(),void(T="identifierNameEscape")}if(!U.isIdContinueChar(R))return K("identifier",z);z+=W()},identifierNameEscape:function(){if("u"!==R)throw ru(W());W();var u=Y();switch(u){case"$":case"_":case"‌":case"‍":break;default:if(!U.isIdContinueChar(u))throw nu()}z+=u,T="identifierName"},sign:function(){switch(R){case".":return z=W(),void(T="decimalPointLeading");case"0":return z=W(),void(T="zero");case"1":case"2":case"3":case"4":case"5":case"6":case"7":case"8":case"9":return z=W(),void(T="decimalInteger");case"I":return W(),Q("nfinity"),K("numeric",$*(1/0));case"N":return W(),Q("aN"),K("numeric",NaN)}throw ru(W())},zero:function(){switch(R){case".":return z+=W(),void(T="decimalPoint");case"e":case"E":return z+=W(),void(T="decimalExponent");case"x":case"X":return z+=W(),void(T="hexadecimal")}return K("numeric",0*$)},decimalInteger:function(){switch(R){case".":return z+=W(),void(T="decimalPoint");case"e":case"E":return z+=W(),void(T="decimalExponent")}if(!U.isDigit(R))return K("numeric",$*Number(z));z+=W()},decimalPointLeading:function(){if(U.isDigit(R))return z+=W(),void(T="decimalFraction");throw ru(W())},decimalPoint:function(){switch(R){case"e":case"E":return z+=W(),void(T="decimalExponent")}return U.isDigit(R)?(z+=W(),void(T="decimalFraction")):K("numeric",$*Number(z))},decimalFraction:function(){switch(R){case"e":case"E":return z+=W(),void(T="decimalExponent")}if(!U.isDigit(R))return K("numeric",$*Number(z));z+=W()},decimalExponent:function(){switch(R){case"+":case"-":return z+=W(),void(T="decimalExponentSign")}if(U.isDigit(R))return z+=W(),void(T="decimalExponentInteger");throw ru(W())},decimalExponentSign:function(){if(U.isDigit(R))return z+=W(),void(T="decimalExponentInteger");throw ru(W())},decimalExponentInteger:function(){if(!U.isDigit(R))return K("numeric",$*Number(z));z+=W()},hexadecimal:function(){if(U.isHexDigit(R))return z+=W(),void(T="hexadecimalInteger");throw ru(W())},hexadecimalInteger:function(){if(!U.isHexDigit(R))return K("numeric",$*Number(z));z+=W()},string:function(){switch(R){case"\\":return W(),void(z+=function(){switch(q()){case"b":return W(),"\b";case"f":return W(),"\f";case"n":return W(),"\n";case"r":return W(),"\r";case"t":return W(),"\t";case"v":return W(),"\v";case"0":if(W(),U.isDigit(q()))throw ru(W());return"\0";case"x":return W(),function(){var u="",D=q();if(!U.isHexDigit(D))throw ru(W());if(u+=W(),D=q(),!U.isHexDigit(D))throw ru(W());return u+=W(),String.fromCodePoint(parseInt(u,16))}();case"u":return W(),Y();case"\n":case"\u2028":case"\u2029":return W(),"";case"\r":return W(),"\n"===q()&&W(),"";case"1":case"2":case"3":case"4":case"5":case"6":case"7":case"8":case"9":case void 0:throw ru(W())}return W()}());case'"':return H?(W(),K("string",z)):void(z+=W());case"'":return H?void(z+=W()):(W(),K("string",z));case"\n":case"\r":throw ru(W());case"\u2028":case"\u2029":!function(u){console.warn("JSON5: '"+Fu(u)+"' in strings is not valid ECMAScript; consider escaping")}(R);break;case void 0:throw ru(W())}z+=W()},start:function(){switch(R){case"{":case"[":return K("punctuator",W())}T="value"},beforePropertyName:function(){switch(R){case"$":case"_":return z=W(),void(T="identifierName");case"\\":return W(),void(T="identifierNameStartEscape");case"}":return K("punctuator",W());case'"':case"'":return H='"'===W(),void(T="string")}if(U.isIdStartChar(R))return z+=W(),void(T="identifierName");throw ru(W())},afterPropertyName:function(){if(":"===R)return K("punctuator",W());throw ru(W())},beforePropertyValue:function(){T="value"},afterPropertyValue:function(){switch(R){case",":case"}":return K("punctuator",W())}throw ru(W())},beforeArrayValue:function(){if("]"===R)return K("punctuator",W());T="value"},afterArrayValue:function(){switch(R){case",":case"]":return K("punctuator",W())}throw ru(W())},end:function(){throw ru(W())}};function K(u,D){return{type:u,value:D,line:V,column:J}}function Q(u){for(var D=0,e=u;D<e.length;D+=1){var r=e[D];if(q()!==r)throw ru(W());W()}}function Y(){for(var u="",D=4;D-- >0;){var e=q();if(!U.isHexDigit(e))throw ru(W());u+=W()}return String.fromCodePoint(parseInt(u,16))}var uu={start:function(){if("eof"===M.type)throw tu();Du()},beforePropertyName:function(){switch(M.type){case"identifier":case"string":return k=M.value,void(O="afterPropertyName");case"punctuator":return void eu();case"eof":throw tu()}},afterPropertyName:function(){if("eof"===M.type)throw tu();O="beforePropertyValue"},beforePropertyValue:function(){if("eof"===M.type)throw tu();Du()},beforeArrayValue:function(){if("eof"===M.type)throw tu();"punctuator"!==M.type||"]"!==M.value?Du():eu()},afterPropertyValue:function(){if("eof"===M.type)throw tu();switch(M.value){case",":return void(O="beforePropertyName");case"}":eu()}},afterArrayValue:function(){if("eof"===M.type)throw tu();switch(M.value){case",":return void(O="beforeArrayValue");case"]":eu()}},end:function(){}};function Du(){var u;switch(M.type){case"punctuator":switch(M.value){case"{":u={};break;case"[":u=[]}break;case"null":case"boolean":case"numeric":case"string":u=M.value}if(void 0===L)L=u;else{var D=j[j.length-1];Array.isArray(D)?D.push(u):Object.defineProperty(D,k,{value:u,writable:!0,enumerable:!0,configurable:!0})}if(null!==u&&"object"==typeof u)j.push(u),O=Array.isArray(u)?"beforeArrayValue":"beforePropertyName";else{var e=j[j.length-1];O=null==e?"end":Array.isArray(e)?"afterArrayValue":"afterPropertyValue"}}function eu(){j.pop();var u=j[j.length-1];O=null==u?"end":Array.isArray(u)?"afterArrayValue":"afterPropertyValue"}function ru(u){return Cu(void 0===u?"JSON5: invalid end of input at "+V+":"+J:"JSON5: invalid character '"+Fu(u)+"' at "+V+":"+J)}function tu(){return Cu("JSON5: invalid end of input at "+V+":"+J)}function nu(){return Cu("JSON5: invalid identifier character at "+V+":"+(J-=5))}function Fu(u){var D={"'":"\\'",'"':'\\"',"\\":"\\\\","\b":"\\b","\f":"\\f","\n":"\\n","\r":"\\r","\t":"\\t","\v":"\\v","\0":"\\0","\u2028":"\\u2028","\u2029":"\\u2029"};if(D[u])return D[u];if(u<" "){var e=u.charCodeAt(0).toString(16);return"\\x"+("00"+e).substring(e.length)}return u}function Cu(u){var D=new SyntaxError(u);return D.lineNumber=V,D.columnNumber=J,D}return{parse:function(u,D){_=String(u),O="start",j=[],I=0,V=1,J=0,M=void 0,k=void 0,L=void 0;do{M=Z(),uu[O]()}while("eof"!==M.type);return"function"==typeof D?function u(D,e,r){var t=D[e];if(null!=t&&"object"==typeof t)if(Array.isArray(t))for(var n=0;n<t.length;n++){var F=String(n),C=u(t,F,r);void 0===C?delete t[F]:Object.defineProperty(t,F,{value:C,writable:!0,enumerable:!0,configurable:!0})}else for(var A in t){var i=u(t,A,r);void 0===i?delete t[A]:Object.defineProperty(t,A,{value:i,writable:!0,enumerable:!0,configurable:!0})}return r.call(D,e,t)}({"":L},"",D):L},stringify:function(u,D,e){var r,t,n,F=[],C="",A="";if(null==D||"object"!=typeof D||Array.isArray(D)||(e=D.space,n=D.quote,D=D.replacer),"function"==typeof D)t=D;else if(Array.isArray(D)){r=[];for(var i=0,E=D;i<E.length;i+=1){var o=E[i],a=void 0;"string"==typeof o?a=o:("number"==typeof o||o instanceof String||o instanceof Number)&&(a=String(o)),void 0!==a&&r.indexOf(a)<0&&r.push(a)}}return e instanceof Number?e=Number(e):e instanceof String&&(e=String(e)),"number"==typeof e?e>0&&(e=Math.min(10,Math.floor(e)),A="          ".substr(0,e)):"string"==typeof e&&(A=e.substr(0,10)),c("",{"":u});function c(u,D){var e=D[u];switch(null!=e&&("function"==typeof e.toJSON5?e=e.toJSON5(u):"function"==typeof e.toJSON&&(e=e.toJSON(u))),t&&(e=t.call(D,u,e)),e instanceof Number?e=Number(e):e instanceof String?e=String(e):e instanceof Boolean&&(e=e.valueOf()),e){case null:return"null";case!0:return"true";case!1:return"false"}return"string"==typeof e?B(e):"number"==typeof e?String(e):"object"==typeof e?Array.isArray(e)?function(u){if(F.indexOf(u)>=0)throw TypeError("Converting circular structure to JSON5");F.push(u);var D=C;C+=A;for(var e,r=[],t=0;t<u.length;t++){var n=c(String(t),u);r.push(void 0!==n?n:"null")}if(0===r.length)e="[]";else if(""===A){var i=r.join(",");e="["+i+"]"}else{var E=",\n"+C,o=r.join(E);e="[\n"+C+o+",\n"+D+"]"}return F.pop(),C=D,e}(e):function(u){if(F.indexOf(u)>=0)throw TypeError("Converting circular structure to JSON5");F.push(u);var D=C;C+=A;for(var e,t,n=r||Object.keys(u),i=[],E=0,o=n;E<o.length;E+=1){var a=o[E],B=c(a,u);if(void 0!==B){var f=s(a)+":";""!==A&&(f+=" "),f+=B,i.push(f)}}if(0===i.length)e="{}";else if(""===A)t=i.join(","),e="{"+t+"}";else{var l=",\n"+C;t=i.join(l),e="{\n"+C+t+",\n"+D+"}"}return F.pop(),C=D,e}(e):void 0}function B(u){for(var D={"'":.1,'"':.2},e={"'":"\\'",'"':'\\"',"\\":"\\\\","\b":"\\b","\f":"\\f","\n":"\\n","\r":"\\r","\t":"\\t","\v":"\\v","\0":"\\0","\u2028":"\\u2028","\u2029":"\\u2029"},r="",t=0;t<u.length;t++){var F=u[t];switch(F){case"'":case'"':D[F]++,r+=F;continue;case"\0":if(U.isDigit(u[t+1])){r+="\\x00";continue}}if(e[F])r+=e[F];else if(F<" "){var C=F.charCodeAt(0).toString(16);r+="\\x"+("00"+C).substring(C.length)}else r+=F}var A=n||Object.keys(D).reduce(function(u,e){return D[u]<D[e]?u:e});return A+(r=r.replace(new RegExp(A,"g"),e[A]))+A}function s(u){if(0===u.length)return B(u);var D=String.fromCodePoint(u.codePointAt(0));if(!U.isIdStartChar(D))return B(u);for(var e=D.length;e<u.length;e++)if(!U.isIdContinueChar(String.fromCodePoint(u.codePointAt(e))))return B(u);return u}}}});
+
+    </script>
+</head>
+<body class="bg-slate-900 text-gray-100 min-h-screen">
+    <div class="max-w-3xl mx-auto px-3 py-5">
+        <h1 class="text-xl font-bold text-center mb-4">📜 苏丹的游戏 高级存档编辑器 v8</h1>
+
+        <div class="flex flex-wrap gap-2 mb-3">
+            <label class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg cursor-pointer transition">
+                📂 打开存档文件
+                <input type="file" id="fileInput" class="hidden">
+            </label>
+            <button id="pasteOpenBtn" class="bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-lg transition">📋 粘贴存档</button>
+            <button id="exportBtn" class="bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-lg transition disabled:opacity-40" disabled>💾 保存并下载</button>
+            <button id="backupBtn" class="bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-lg transition disabled:opacity-40" disabled>🗂️ 导出备份</button>
+        </div>
+        <div class="text-orange-300 text-sm mb-3 p-2 bg-orange-950 rounded">
+            💡 手机端：Json 文件灰色无法点击时，用【粘贴存档】把存档全文复制进来即可；优先用 Chrome/Edge。
+            <br>⚠️ 每次大改动前先【导出备份】。点击卡牌/事件标题可展开就地编辑。
+        </div>
+
+        <!-- 结构识别提示条 -->
+        <div id="structBar" class="hidden bg-slate-800 border border-slate-600 rounded-lg p-3 mb-4 text-sm"></div>
+
+        <div class="flex border-b border-slate-700 mb-4 overflow-x-auto">
+            <button data-tab="global" class="tab-btn px-3 py-2 border-b-2 border-blue-500 text-blue-400 shrink-0">🌐全局</button>
+            <button data-tab="card" class="tab-btn px-3 py-2 border-b-2 border-transparent text-gray-400 shrink-0">🃏卡牌/物品</button>
+            <button data-tab="event" class="tab-btn px-3 py-2 border-b-2 border-transparent text-gray-400 shrink-0">⚖️事件</button>
+            <button data-tab="sudanpool" class="tab-btn px-3 py-2 border-b-2 border-transparent text-gray-400 shrink-0">👑苏丹卡</button>
+            <button data-tab="dict" class="tab-btn px-3 py-2 border-b-2 border-transparent text-gray-400 shrink-0">📖名称词典</button>
+            <button data-tab="source" class="tab-btn px-3 py-2 border-b-2 border-transparent text-gray-400 shrink-0">📝源码</button>
+        </div>
+
+        <!-- 全局参数面板 -->
+        <div id="panel-global" class="tab-content">
+            <div class="mb-3">
+                <input id="searchGlobal" type="text" placeholder="🔍搜索全局参数..."
+                    class="w-full bg-slate-800 border border-slate-600 rounded-lg px-3 py-2 outline-none focus:border-blue-500">
+            </div>
+            <div id="globalContainer" class="bg-slate-800 rounded-lg p-3 min-h-[120px] overflow-auto">
+                <div class="text-gray-400 text-center mt-10">请先载入存档</div>
+            </div>
+            <div class="bg-slate-800 rounded-lg p-3 mt-3">
+                <div class="font-bold mb-2">🔧 全部顶层字段（中文名显示，true/false 自动变下拉）</div>
+                <div id="topFields" class="text-sm"></div>
+                <div class="flex gap-2 mt-2">
+                    <input id="newTopKey" placeholder="新字段英文名" class="bg-slate-900 w-40 px-2 py-1 rounded border border-slate-600">
+                    <button id="addTopBtn" class="bg-sky-600 px-3 py-1 rounded">➕新增</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 卡牌面板 -->
+        <div id="panel-card" class="tab-content hidden">
+            <div class="bg-slate-800 p-3 rounded-lg mb-3">
+                <h3 class="font-bold mb-1">🃏 卡牌/物品 <span class="text-xs text-gray-400 font-normal">（点击卡牌标题展开就地编辑；展开即选中）</span></h3>
+                <div class="flex flex-wrap gap-2 mb-2">
+                    <button id="addCardBtn" class="bg-sky-600 px-3 py-2 rounded">➕新建卡牌</button>
+                    <button id="dupCardBtn" class="bg-teal-600 px-3 py-2 rounded">📋复制展开卡牌</button>
+                    <button id="delCardBtn" class="bg-red-600 px-3 py-2 rounded">🗑️删除展开卡牌</button>
+                </div>
+                <input id="searchCard" type="text" placeholder="🔍搜索卡牌（ID / UID / 简介 / 标签）..."
+                    class="w-full bg-slate-900 border border-slate-600 rounded-lg px-3 py-2 outline-none focus:border-blue-500 text-sm">
+            </div>
+            <div id="cardContainer" class="min-h-[120px]">
+                <div class="text-gray-400 text-center mt-12">载入存档后显示卡牌列表</div>
+            </div>
+        </div>
+
+        <!-- 事件面板 -->
+        <div id="panel-event" class="tab-content hidden">
+            <div class="bg-slate-800 p-3 rounded-lg mb-3">
+                <h3 class="font-bold mb-1">⚖️ 事件 <span class="text-xs text-gray-400 font-normal">（展开后显示卡位槽；空槽点【填入初始卡牌】可自己填卡）</span></h3>
+                <div class="flex flex-wrap gap-2 mb-2">
+                    <button id="addEventBtn" class="bg-sky-600 px-3 py-2 rounded">➕新建事件</button>
+                    <button id="delEventBtn" class="bg-red-600 px-3 py-2 rounded">🗑️删除展开事件</button>
+                </div>
+                <input id="searchEvent" type="text" placeholder="🔍搜索事件（ID / UID / 内含角色）..."
+                    class="w-full bg-slate-900 border border-slate-600 rounded-lg px-3 py-2 outline-none focus:border-blue-500 text-sm">
+            </div>
+            <div id="eventContainer" class="min-h-[120px]">
+                <div class="text-gray-400 text-center mt-12">载入存档后显示事件列表</div>
+            </div>
+        </div>
+
+        <!-- 苏丹卡面板（一键加卡到手牌） -->
+        <div id="panel-sudanpool" class="tab-content hidden">
+            <div class="bg-slate-800 rounded-lg p-3 mb-3">
+                <h3 class="font-bold mb-1">👑 懒人一键添加苏丹卡</h3>
+                <div class="text-gray-400 text-sm mb-2">不用记 ID，选中文名，一键加到你的手牌（卡牌列表）。格式严格按游戏标准生成。</div>
+                <div class="flex flex-wrap items-center gap-2">
+                    <select id="sudanCardSel" class="bg-slate-900 flex-1 min-w-[220px] px-3 py-2 rounded border border-slate-600 text-sm"></select>
+                    <button id="addSudanToHandBtn" class="bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-lg">➕ 一键添加到手牌</button>
+                </div>
+                <div id="sudanResult" class="text-sm mt-2 text-gray-400"></div>
+            </div>
+            <div class="bg-slate-800 rounded-lg p-3">
+                <button id="togglePoolBtn" class="text-sm text-sky-300 underline">🗂️ 显示/隐藏 原始苏丹卡池（高级）</button>
+                <div id="poolWrap" class="hidden mt-2">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <input id="poolCardId" type="number" placeholder="卡ID" class="bg-slate-900 w-24 px-2 py-2 rounded border border-slate-600 text-sm">
+                        <button id="addSudanBtn" class="bg-sky-600 px-3 py-2 rounded">➕添加</button>
+                        <button id="clearPoolBtn" class="bg-red-600 px-3 py-2 rounded">🗑️清空</button>
+                    </div>
+                    <div id="poolContainer" class="min-h-[60px]"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 名称词典面板 -->
+        <div id="panel-dict" class="tab-content hidden">
+            <div class="bg-slate-800 rounded-lg p-3 mb-3">
+                <div class="font-bold mb-1">📖 名称词典（英文键 → 游戏内中文名）</div>
+                <div class="text-gray-400 text-sm mb-2">把存档里的英文键名填成中文名，全站显示自动带上中文。保存在本浏览器内。</div>
+                <div class="flex flex-wrap gap-2 mb-2">
+                    <input id="dictEn" placeholder="英文键名，如 strength" class="bg-slate-900 w-40 px-2 py-1 rounded border border-slate-600">
+                    <input id="dictZh" placeholder="中文名，如 力量" class="bg-slate-900 w-40 px-2 py-1 rounded border border-slate-600">
+                    <button id="addDictBtn" class="bg-sky-600 px-3 py-1 rounded">➕添加</button>
+                </div>
+                <div id="dictContainer" class="text-sm"></div>
+            </div>
+        </div>
+
+        <!-- 源码面板 -->
+        <div id="panel-source" class="tab-content hidden">
+            <div class="text-amber-300 text-sm mb-2">⚠️直接改源码有高风险；改动前务必备份。改完点【应用源码改动】。</div>
+            <textarea id="codeArea" class="w-full bg-slate-800 border border-slate-600 rounded-lg p-3 min-h-[380px] font-mono text-sm outline-none focus:border-blue-500 resize-y"></textarea>
+            <button id="applySourceBtn" class="bg-emerald-600 px-4 py-2 rounded-lg mt-2">✅ 应用源码改动</button>
+        </div>
+
+        <div id="statusBar" class="mt-4 px-3 py-2 rounded-lg bg-slate-800 text-sm">等待载入文件</div>
+    </div>
+
+<script>
+/* ================= 状态 ================= */
+const globalFields = [
+    { key: "totalRound", name: "总回合数", type: "number" },
+    { key: "finishTutorial", name: "完成新手教程（开关：false/true）", type: "bool" },
+    { key: "sudan_card_init_life", name: "苏丹卡初始时限天数", type: "number" },
+    { key: "deadline_unshow", name: "处刑日UI显示数据（true=关闭UI，false=开启UI）", type: "bool" },
+    { key: "sudan_redraw_times_per_round", name: "每回合重抽次数", type: "number" },
+    { key: "sudan_redraw_times_recovery_round", name: "重抽恢复间隔回合", type: "number" }
+];
+
+let saveData = null;
+let fileName = "save.json";
+let selectedCardIndex = -1;
+let selectedEventIndex = -1;
+let cardPath = null;
+let eventPath = null;
+let poolPath = null;
+let slotPath = null;
+let candidates = [];
+
+const DEFAULT_DICT = {
+    totalRound:"总回合数", totalPoint:"命运点", usedPoint:"已使用命运点",
+    sudan_card_init_life:"苏丹卡初始时限", deadline_unshow:"处刑日UI显示数据",
+    sudan_redraw_times_per_round:"每回合重抽次数", sudan_redraw_times_recovery_round:"重抽恢复间隔",
+    sudan_pool_init_count:"卡池苏丹卡数",
+    gold:"金币", sanity:"理智", hp:"生命", action_point:"行动力",
+    strength:"力量", dexterity:"敏捷", intelligence:"智慧", charm:"魅力",
+    custom_text:"自定义简介", custom_name:"自定义名称", rareup:"稀有度加成",
+    bag:"所属背包", bagpos:"背包位置", equips:"装备", equip_slots:"装备槽",
+    id:"ID", uid:"UID", count:"堆叠数", life:"时限",
+    kill:"杀戮", war:"征服", desire:"纵欲", wastefulness:"奢靡",
+    battle:"战斗", social:"社交", upgrade_point:"升级点", sudancard:"苏丹卡",
+    rare:"品级"
+};
+
+/* 苏丹卡数据（id / 中文名 / 游戏标准 tag）——来自游戏卡牌数据库 */
+const SUDAN_CARDS = [
+    {id:2010001, name:"岩石杀戮", tag:{kill:1, battle:1, upgrade_point:1, sudancard:1}},
+    {id:2010002, name:"青铜杀戮", tag:{kill:1, battle:2, upgrade_point:2, sudancard:1}},
+    {id:2010003, name:"白银杀戮", tag:{kill:1, battle:3, upgrade_point:3, sudancard:1}},
+    {id:2010004, name:"黄金杀戮", tag:{kill:1, battle:4, upgrade_point:4, sudancard:1}},
+    {id:2010005, name:"岩石纵欲", tag:{desire:1, social:1, upgrade_point:1, sudancard:1}},
+    {id:2010006, name:"青铜纵欲", tag:{desire:1, social:2, upgrade_point:2, sudancard:1}},
+    {id:2010007, name:"白银纵欲", tag:{desire:1, social:3, upgrade_point:3, sudancard:1}},
+    {id:2010008, name:"黄金纵欲", tag:{desire:1, social:4, upgrade_point:4, sudancard:1}},
+    {id:2010009, name:"岩石奢靡", tag:{wastefulness:1, social:1, upgrade_point:1, sudancard:1}},
+    {id:2010010, name:"青铜奢靡", tag:{wastefulness:1, social:2, upgrade_point:2, sudancard:1}},
+    {id:2010011, name:"白银奢靡", tag:{wastefulness:1, social:3, upgrade_point:3, sudancard:1}},
+    {id:2010012, name:"黄金奢靡", tag:{wastefulness:1, social:4, upgrade_point:4, sudancard:1}},
+    {id:2010013, name:"岩石征服", tag:{war:1, battle:1, upgrade_point:1, sudancard:1}},
+    {id:2010014, name:"青铜征服", tag:{war:1, battle:2, upgrade_point:2, sudancard:1}},
+    {id:2010015, name:"白银征服", tag:{war:1, battle:3, upgrade_point:3, sudancard:1}},
+    {id:2010016, name:"黄金征服", tag:{war:1, battle:4, upgrade_point:4, sudancard:1}}
+];
+let nameDict = {};
+function loadDict(){ nameDict = Object.assign({}, DEFAULT_DICT); try{ Object.assign(nameDict, JSON.parse(localStorage.getItem("sudan_name_dict")||"{}")); }catch(e){} }
+function saveDict(){ localStorage.setItem("sudan_name_dict", JSON.stringify(nameDict)); }
+function dn(k){ return nameDict[k] ? `${nameDict[k]}(${k})` : k; }
+
+/* ================= DOM ================= */
+const $ = id => document.getElementById(id);
+const fileInput = $("fileInput"), pasteOpenBtn = $("pasteOpenBtn");
+const exportBtn = $("exportBtn"), backupBtn = $("backupBtn");
+const structBar = $("structBar"), statusBar = $("statusBar");
+const globalContainer = $("globalContainer"), topFields = $("topFields");
+const cardContainer = $("cardContainer"), eventContainer = $("eventContainer");
+const poolContainer = $("poolContainer"), codeArea = $("codeArea");
+const searchGlobal = $("searchGlobal"), searchCard = $("searchCard"), searchEvent = $("searchEvent");
+
+/* ================= 工具 ================= */
+function esc(v){ return String(v ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function makeUID(){ return Math.floor(Math.random()*99999999)+1000; }
+function resolvePath(obj, path){ let c=obj; for(const p of path){ if(c==null) return undefined; c=c[p]; } return c; }
+function setPath(obj, path, val){ let c=obj; for(let i=0;i<path.length-1;i++){ if(c[path[i]]==null||typeof c[path[i]]!=="object") c[path[i]]={}; c=c[path[i]]; } c[path[path.length-1]]=val; }
+function getCards(){ return cardPath ? (resolvePath(saveData, cardPath)||[]) : []; }
+function getEvents(){ return eventPath ? (resolvePath(saveData, eventPath)||[]) : []; }
+function getPool(){ return poolPath ? (resolvePath(saveData, poolPath)||[]) : []; }
+function syncSource(){ try{ codeArea.value = JSON.stringify(saveData, null, 2); }catch(e){ setMsg("❌序列化失败，存档结构异常！立即用备份"); } }
+function setMsg(m){ statusBar.innerText = m; }
+function num(v){ const n=Number(v); return isNaN(n)?0:n; }
+function isObj(v){ return v && typeof v==="object"; }
+function mkInput(val, oninput){
+    const inp = document.createElement("input");
+    inp.className="bg-slate-900 px-1 py-0.5 rounded border border-slate-600 text-sm w-full";
+    inp.value = String(val ?? "");
+    inp.autocomplete="off"; inp.spellcheck=false;
+    inp.oninput = ()=>{ oninput(inp.value); };
+    return inp;
+}
+function btn(label, cls, onclick){
+    const b = document.createElement("button");
+    b.className = "px-2 py-0.5 rounded text-xs shrink-0 " + cls;
+    b.innerText = label;
+    b.onclick = onclick;
+    return b;
+}
+/* 数组上下移动 */
+function moveArray(arr, from, dir){
+    const to = from + dir;
+    if(to<0 || to>=arr.length) return false;
+    const tmp = arr.splice(from,1)[0];
+    arr.splice(to,0,tmp);
+    return true;
+}
+/* false/true 下拉 */
+function boolSelect(value, onchange){
+    const sel = document.createElement("select");
+    sel.className = "bg-slate-900 px-2 py-0.5 rounded border border-slate-600 text-sm";
+    sel.innerHTML = `<option value="false">false</option><option value="true">true</option>`;
+    sel.value = String(value===true || value==="true" ? "true" : "false");
+    sel.onchange = ()=>{ onchange(sel.value==="true"); };
+    return sel;
+}
+
+/* ================= 结构识别 ================= */
+function scanArrays(obj, path, depth){
+    if(depth>3 || obj==null || typeof obj!=="object") return;
+    for(const k in obj){
+        const v = obj[k];
+        if(Array.isArray(v)) candidates.push({label:[...path,k].join("."), path:[...path,k], arr:v});
+        else if(v && typeof v==="object") scanArrays(v, [...path,k], depth+1);
+    }
+}
+function classify(arr){
+    if(!arr || arr.length===0) return "unknown";
+    const s = arr[0];
+    if(typeof s==="number") return "pool";
+    if(typeof s!=="object"||s===null) return "unknown";
+    if(Array.isArray(s.cards)||("start_life" in s&&"is_show" in s)||("new_born" in s&&"cards" in s)) return "event";
+    if("uid" in s&&("count" in s||"tag" in s||"bag" in s||"equips" in s)) return "card";
+    if("id" in s) return "maybe";
+    return "unknown";
+}
+function autoMap(){
+    candidates = [];
+    if(saveData) scanArrays(saveData, [], 0);
+    cardPath=eventPath=poolPath=null;
+    slotPath=null;
+    const cc=[],ec=[],pc=[];
+    for(const c of candidates){
+        const k=classify(c.arr);
+        if(k==="card") cc.push(c); else if(k==="event") ec.push(c); else if(k==="pool") pc.push(c);
+    }
+    if(cc.length) cardPath=cc[0].path;
+    if(ec.length) eventPath=ec[0].path;
+    if(pc.length) poolPath=pc[0].path;
+    const nc = candidates.find(c=>c.label==="null");
+    if(nc) slotPath = nc.path;
+    renderStructBar();
+}
+function renderStructBar(){
+    structBar.classList.remove("hidden");
+    const allOpts = c => candidates.map(x=>`<option value="${esc(x.label)}" ${c&&c.label===x.label?"selected":""}>${esc(x.label)}（${x.arr.length}项, ${classify(x.arr)}）</option>`).join("");
+    const slotOpts = `<option value="">（默认：事件自身cards）</option>` + candidates.map(x=>`<option value="${esc(x.label)}" ${slotPath&&slotPath.join(".")===x.label?"selected":""}>${esc(x.label)}（${x.arr.length}项, ${classify(x.arr)}）</option>`).join("");
+    structBar.innerHTML = `
+        <div class="font-bold mb-1">🧩 存档结构识别（读不到时在此手动指定；世界目录里通常含一个 null 目录=事件卡位槽数据）</div>
+        <div class="grid grid-cols-1 gap-1 text-sm">
+            <div class="flex items-center gap-2"><span class="w-20 shrink-0">卡牌数组:</span><select id="selCardPath" class="bg-slate-900 flex-1 px-2 py-1 rounded border border-slate-600">${allOpts(cardPath?candidates.find(c=>c.path.join(".")===cardPath.join(".")):null)}</select></div>
+            <div class="flex items-center gap-2"><span class="w-20 shrink-0">事件数组:</span><select id="selEventPath" class="bg-slate-900 flex-1 px-2 py-1 rounded border border-slate-600">${allOpts(eventPath?candidates.find(c=>c.path.join(".")===eventPath.join(".")):null)}</select></div>
+            <div class="flex items-center gap-2"><span class="w-20 shrink-0">槽位数据:</span><select id="selSlotPath" class="bg-slate-900 flex-1 px-2 py-1 rounded border border-slate-600">${slotOpts}</select></div>
+            <div class="flex items-center gap-2"><span class="w-20 shrink-0">苏丹卡池:</span><select id="selPoolPath" class="bg-slate-900 flex-1 px-2 py-1 rounded border border-slate-600">${allOpts(poolPath?candidates.find(c=>c.path.join(".")===poolPath.join(".")):null)}</select></div>
+        </div>`;
+    $("selCardPath").onchange = e=>applySelPath("card", e.target.value);
+    $("selEventPath").onchange = e=>applySelPath("event", e.target.value);
+    $("selSlotPath").onchange = e=>applySelPath("slot", e.target.value);
+    $("selPoolPath").onchange = e=>applySelPath("pool", e.target.value);
+}
+function applySelPath(kind, label){
+    if(kind==="slot"){
+        slotPath = label ? (candidates.find(x=>x.label===label)?.path || null) : null;
+        renderAll(); setMsg(slotPath ? `✅ 事件槽位数据已指定为 ${label}` : "✅ 事件槽位改回事件自身cards");
+        return;
+    }
+    const c = candidates.find(x=>x.label===label);
+    if(!c) return;
+    if(kind==="card") cardPath=c.path;
+    if(kind==="event") eventPath=c.path;
+    if(kind==="pool") poolPath=c.path;
+    selectedCardIndex=-1; selectedEventIndex=-1;
+    renderAll();
+    setMsg(`✅ ${kind}数组已切换为 ${label}`);
+}
+
+/* ================= 槽位数据 ================= */
+function getSlotArray(evIdx){
+    const ev = getEvents()[evIdx];
+    if(slotPath){
+        const s = resolvePath(saveData, slotPath);
+        if(!Array.isArray(s)) return null;
+        if(!Array.isArray(s[evIdx])) s[evIdx] = [];
+        return s[evIdx];
+    }
+    if(!Array.isArray(ev.cards)) ev.cards = [];
+    return ev.cards;
+}
+function slotCount(evIdx){
+    const s = getSlotArray(evIdx);
+    if(!Array.isArray(s)) return 0;
+    return s.filter(x=>isObj(x)).length;
+}
+/* 初始卡牌数据：优先复制已有卡牌结构，保证字段完整 */
+function makeInitialCard(){
+    const cards = getCards();
+    if(cards.length>0){
+        const t = JSON.parse(JSON.stringify(cards[0]));
+        t.uid = makeUID();
+        return t;
+    }
+    return { uid:makeUID(), id:0, count:1, life:0, tag:{}, custom_text:"" };
+}
+/* 初始苏丹卡池条目：复制已有条目结构（保证字段齐全），重置“折/使用”类字段为未使用状态 */
+function makeInitialPoolEntry(id){
+    const pool = getPool();
+    const tpl = pool.find(e=>isObj(e));
+    if(tpl){
+        const t = JSON.parse(JSON.stringify(tpl));
+        if("id" in t) t.id = id;
+        if("uid" in t) t.uid = makeUID();
+        for(const k in t){
+            const lk = k.toLowerCase();
+            if(lk.includes("fold")||lk.includes("折")||lk.includes("used")){
+                if(typeof t[k]==="boolean") t[k]=false;
+                else if(typeof t[k]==="number") t[k]=0;
+            }
+        }
+        return t;
+    }
+    return id;
+}
+/* 生成一张可用的苏丹卡（严格按游戏存档格式，加到手牌） */
+function makeSudanCard(entry){
+    const cards = getCards();
+    let t = { uid:makeUID(), id:entry.id, count:1, life:num(saveData.sudan_card_init_life)||7, rareup:0, tag:JSON.parse(JSON.stringify(entry.tag)), equip_slots:[], equips:[], bag:0, bagpos:0, custom_name:entry.name, custom_text:"" };
+    if(cards.length>0){
+        // 复制已有手牌卡的真实存档结构，保证字段齐全
+        t = JSON.parse(JSON.stringify(cards[0]));
+        t.uid = makeUID();
+        t.id = entry.id;
+        t.count = 1;
+        t.life = num(saveData.sudan_card_init_life) || 7;
+        t.tag = JSON.parse(JSON.stringify(entry.tag));
+        t.custom_name = entry.name;
+    }
+    return t;
+}
+/* 填充苏丹卡下拉 */
+function renderSudanSel(){
+    const sel = $("sudanCardSel");
+    sel.innerHTML = SUDAN_CARDS.map(c=>`<option value="${c.id}">${c.name}（ID:${c.id}）</option>`).join("");
+}
+
+/* ================= 载入 ================= */
+function loadData(text, from){
+    try{
+        saveData = JSON5.parse(text);
+        if(!saveData || typeof saveData!=="object") throw new Error("不是有效对象");
+        autoMap();
+        selectedCardIndex=-1; selectedEventIndex=-1;
+        searchCard.value=""; searchEvent.value=""; searchGlobal.value="";
+        renderAll(); syncSource();
+        exportBtn.disabled=false; backupBtn.disabled=false;
+        setMsg(from==="file" ? `✅ 载入成功：${fileName}（识别到 ${candidates.length} 个数组${slotPath?"，已自动关联 null 目录为槽位数据":""}）` : "✅ 剪贴板存档载入成功");
+    }catch(err){ setMsg(`❌ 解析失败：${err.message}`); }
+}
+fileInput.onchange = async e => {
+    const f = e.target.files[0]; if(!f) return;
+    fileName = f.name;
+    loadData(await f.text(), "file");
+};
+pasteOpenBtn.onclick = async () => {
+    try{
+        const t = await navigator.clipboard.readText();
+        if(!t.trim()) throw new Error("空");
+        loadData(t, "paste");
+    }catch(err){ setMsg("❌ 读取剪贴板失败，可把存档粘贴进【源码】页后点【应用源码改动】"); }
+};
+$("applySourceBtn").onclick = ()=>{
+    try{
+        const o = JSON5.parse(codeArea.value);
+        if(!o || typeof o!=="object") throw new Error("无效");
+        saveData = o; autoMap();
+        selectedCardIndex=-1; selectedEventIndex=-1;
+        renderAll();
+        exportBtn.disabled=false; backupBtn.disabled=false;
+        setMsg("✅ 源码已应用并重新识别结构");
+    }catch(err){ setMsg(`⚠️ 源码语法错误：${err.message}`); }
+};
+
+/* ================= Tab ================= */
+document.querySelectorAll(".tab-btn").forEach(btn=>{
+    btn.onclick = ()=>{
+        document.querySelectorAll(".tab-btn").forEach(b=>{
+            b.classList.remove("border-blue-500","text-blue-400");
+            b.classList.add("border-transparent","text-gray-400");
+        });
+        btn.classList.remove("border-transparent","text-gray-400");
+        btn.classList.add("border-blue-500","text-blue-400");
+        const tab = btn.dataset.tab;
+        ["global","card","event","sudanpool","dict","source"].forEach(id=>{
+            $("panel-"+id).classList.toggle("hidden", id!==tab);
+        });
+    };
+});
+
+/* ================= 全局 ================= */
+function renderAll(){ renderGlobal(); renderTopFields(); renderCards(); renderEvents(); renderPool(); renderDict(); }
+
+function renderGlobal(filter=""){
+    if(!saveData){ globalContainer.innerHTML="<div class='text-gray-400 text-center mt-10'>请先载入存档</div>"; return; }
+    globalContainer.innerHTML = "";
+    globalFields.forEach(item=>{
+        if(filter && !item.key.includes(filter) && !item.name.includes(filter)) return;
+        const row = document.createElement("div");
+        row.className = "py-2 border-b border-slate-700 flex justify-between items-center gap-2";
+        const label = document.createElement("span"); label.innerText = item.name;
+        const has = item.key in saveData;
+        if(item.type==="number"){
+            const wrap = document.createElement("div"); wrap.className="flex gap-2 items-center";
+            const minus = document.createElement("button"); minus.className="w-8 h-8 bg-slate-700 rounded"; minus.innerText="-";
+            const inp = document.createElement("input");
+            inp.type="number"; inp.className="bg-slate-900 w-28 px-2 py-1 rounded border border-slate-600";
+            inp.value = has ? saveData[item.key] : "";
+            inp.placeholder = has ? "" : "未设置";
+            const plus = document.createElement("button"); plus.className="w-8 h-8 bg-slate-700 rounded"; plus.innerText="+";
+            const upd = v => { saveData[item.key] = num(v); syncSource(); };
+            minus.onclick = ()=>upd(num(inp.value||0)-1);
+            plus.onclick = ()=>upd(num(inp.value||0)+1);
+            inp.oninput = ()=>{ if(inp.value!==""){ saveData[item.key]=num(inp.value); syncSource(); } };
+            wrap.append(minus,inp,plus); row.append(label,wrap);
+        } else if(item.type==="bool"){
+            row.append(label, boolSelect(has?saveData[item.key]:false, v=>{ saveData[item.key]=v; syncSource(); }));
+        } else {
+            const inp = document.createElement("input");
+            inp.className="bg-slate-900 w-28 px-2 py-1 rounded border border-slate-600";
+            inp.value = has ? String(saveData[item.key]) : "";
+            inp.placeholder = has ? "" : "未设置";
+            inp.oninput = ()=>{ const s=inp.value.trim(); saveData[item.key] = s===""?0:(isNaN(Number(s))? s : Number(s)); syncSource(); };
+            row.append(label, inp);
+        }
+        globalContainer.appendChild(row);
+    });
+}
+searchGlobal.oninput = e => renderGlobal(e.target.value.trim());
+
+function renderTopFields(){
+    if(!saveData){ topFields.innerHTML=""; return; }
+    topFields.innerHTML = "";
+    Object.keys(saveData).forEach(k=>{
+        const v = saveData[k];
+        if(v && typeof v==="object"){
+            const row = document.createElement("div");
+            row.className="flex items-center gap-2 py-1 border-b border-slate-700";
+            row.innerHTML = `<span class="text-sky-300 w-40 shrink-0 truncate">${esc(dn(k))}</span><span class="text-gray-400 text-xs truncate">${esc(JSON.stringify(v))}</span>`;
+            topFields.appendChild(row);
+            return;
+        }
+        const row = document.createElement("div");
+        row.className="flex items-center gap-2 py-1 border-b border-slate-700";
+        const lbl = document.createElement("span"); lbl.className="shrink-0 w-40 truncate"; lbl.innerText = dn(k);
+        if(typeof v === "boolean"){
+            row.append(lbl, boolSelect(v, nv=>{ saveData[k]=nv; renderTopFields(); syncSource(); }));
+        } else {
+            const inp = document.createElement("input");
+            inp.className="bg-slate-900 flex-1 px-2 py-1 rounded border border-slate-600 text-sm";
+            inp.value = String(v);
+            inp.oninput = ()=>{ const s=inp.value.trim(); saveData[k] = s===""?"":(isNaN(Number(s))? s : Number(s)); syncSource(); };
+            row.append(lbl,inp);
+        }
+        const del = document.createElement("button"); del.className="bg-red-700 px-2 py-1 rounded shrink-0 text-xs"; del.innerText="删";
+        del.onclick = ()=>{ delete saveData[k]; renderTopFields(); syncSource(); };
+        row.append(del);
+        topFields.appendChild(row);
+    });
+}
+$("addTopBtn").onclick = ()=>{
+    if(!saveData){ setMsg("⚠️ 请先载入存档"); return; }
+    const k = $("newTopKey").value.trim();
+    if(!k){ setMsg("⚠️ 请输入字段名"); return; }
+    saveData[k] = 0;
+    $("newTopKey").value = "";
+    renderTopFields(); syncSource(); setMsg(`✅ 已新增顶层字段 ${k}`);
+};
+
+/* ================= 标签行编辑器（通用） ================= */
+function tagRowsEditor(tagObj, onChange){
+    const box = document.createElement("div");
+    box.className = "bg-slate-900/60 rounded p-2 mt-1";
+    const title = document.createElement("div");
+    title.className = "text-xs font-bold text-yellow-300 mb-1";
+    title.innerText = "属性标签 tag（中文名见名称词典）";
+    box.appendChild(title);
+    if(!tagObj || typeof tagObj!=="object") tagObj = {};
+    const list = document.createElement("div");
+    Object.keys(tagObj).forEach(k=>{
+        const row = document.createElement("div");
+        row.className = "flex items-center gap-2 my-1";
+        const lbl = document.createElement("span"); lbl.className="w-32 shrink-0 text-xs truncate"; lbl.innerText = dn(k);
+        let editor;
+        if(typeof tagObj[k] === "boolean"){
+            editor = boolSelect(tagObj[k], nv=>{ tagObj[k]=nv; syncSource(); });
+            editor.className += " w-20";
+        } else {
+            editor = mkInput(tagObj[k], v=>{ tagObj[k] = num(v); syncSource(); });
+            editor.className += " w-20";
+        }
+        const del = btn("删","bg-red-700",()=>{ delete tagObj[k]; onChange(); syncSource(); });
+        row.append(lbl, editor, del);
+        list.appendChild(row);
+    });
+    box.appendChild(list);
+    const addRow = document.createElement("div");
+    addRow.className = "flex items-center gap-2 mt-2";
+    const kInp = document.createElement("input"); kInp.placeholder="新标签英文名"; kInp.className="bg-slate-900 w-32 px-1 py-0.5 rounded border border-slate-600 text-sm";
+    const vInp = document.createElement("input"); vInp.placeholder="数值"; vInp.type="number"; vInp.className="bg-slate-900 w-16 px-1 py-0.5 rounded border border-slate-600 text-sm";
+    const add = btn("➕加","bg-sky-600",()=>{
+        const kk = kInp.value.trim();
+        if(!kk){ setMsg("⚠️ 请输入标签英文名"); return; }
+        tagObj[kk] = num(vInp.value||0);
+        onChange(); syncSource(); setMsg(`✅ 已添加标签 ${kk}（可在名称词典填中文名）`);
+    });
+    addRow.append(kInp, vInp, add);
+    box.appendChild(addRow);
+    return box;
+}
+
+/* ================= 搜索匹配 ================= */
+function cardMatches(card, q){
+    if(!q) return true;
+    q = q.toLowerCase();
+    const parts = [String(card.id??""), String(card.uid??""), String(card.custom_text??""), String(card.custom_name??"")];
+    if(card && typeof card==="object" && card.tag) for(const k in card.tag){ parts.push(k, dn(k), String(card.tag[k])); }
+    return parts.some(p=>p.toLowerCase().includes(q));
+}
+function eventMatches(ev, evIdx, q){
+    if(!q) return true;
+    q = q.toLowerCase();
+    const parts = [String(ev.id??""), String(ev.uid??""), String(ev.custom_name??""), String(ev.custom_text??"")];
+    const slots = getSlotArray(evIdx);
+    if(Array.isArray(slots)) slots.forEach(s=>{
+        if(isObj(s)){
+            parts.push(String(s.id??""), String(s.uid??""), String(s.custom_text??""));
+            if(s.tag) for(const k in s.tag){ parts.push(k, String(s.tag[k])); }
+        }
+    });
+    return parts.some(p=>p.toLowerCase().includes(q));
+}
+
+/* ================= 卡牌（就地编辑） ================= */
+function renderCards(){
+    if(!saveData){ cardContainer.innerHTML="<div class='text-gray-400 text-center mt-12'>请先载入存档</div>"; return; }
+    if(!cardPath){ cardContainer.innerHTML="<div class='text-orange-300 text-center mt-12'>未识别到卡牌数组，请在顶部【存档结构识别】里手动指定</div>"; return; }
+    const cards = getCards();
+    const q = searchCard.value.trim();
+    if(cards.length===0){ cardContainer.innerHTML="<div class='text-gray-400 text-center mt-12'>该数组为空，可点【➕新建卡牌】</div>"; return; }
+    cardContainer.innerHTML = "";
+    cards.forEach((card,idx)=>{
+        if(!cardMatches(card, q)) return;
+        const expanded = (idx===selectedCardIndex);
+        const block = document.createElement("div");
+        block.className = "mb-2 bg-slate-700 rounded-lg overflow-hidden";
+        if(expanded) block.classList.add("ring-2","ring-blue-400");
+
+        const head = document.createElement("div");
+        head.className = "w-full px-3 py-1 flex items-center gap-1";
+        const expandBtn = document.createElement("button");
+        expandBtn.className = "flex-1 text-left py-1 flex items-center justify-between gap-2";
+        expandBtn.onclick = ()=>{ selectedCardIndex = (idx===selectedCardIndex ? -1 : idx); selectedEventIndex=-1; renderAll(); };
+        const hspan = document.createElement("span");
+        hspan.className = "text-sm truncate";
+        const cnm = card.custom_name ? String(card.custom_name)+" " : "";
+        hspan.innerText = `${expanded?"▾":"▸"} ${cnm}#${idx}  ID:${card.id??"?"} UID:${card.uid??"?"} ×${card.count??0} 时限:${card.life??0}`;
+        const htags = document.createElement("span");
+        htags.className = "text-xs text-gray-400 truncate";
+        htags.innerText = card.tag ? Object.keys(card.tag).map(t=>dn(t).split("(")[0]).join("、") : "";
+        expandBtn.append(hspan, htags);
+        const cup = btn("↑","bg-slate-600",()=>{
+            if(moveArray(getCards(), idx, -1)){ selectedCardIndex=idx-1; renderAll(); syncSource(); }
+        });
+        const cdown = btn("↓","bg-slate-600",()=>{
+            if(moveArray(getCards(), idx, 1)){ selectedCardIndex=idx+1; renderAll(); syncSource(); }
+        });
+        head.append(expandBtn, cup, cdown);
+        block.appendChild(head);
+
+        if(expanded){
+            const body = document.createElement("div");
+            body.className = "px-3 pb-3";
+
+            const grid = document.createElement("div");
+            grid.className = "grid grid-cols-2 gap-2 text-xs";
+            const mkF = (label)=>{ const d=document.createElement("div"); d.innerHTML=`<span class="text-gray-400">${label}</span><div class="field-slot"></div>`; return d; };
+            const f1=mkF("ID"), f2=mkF("UID"), f3=mkF("堆叠"), f4=mkF("时限");
+            const i1=mkInput(card.id, v=>{card.id=num(v);syncSource();});
+            const i2=mkInput(card.uid, v=>{card.uid=num(v);syncSource();});
+            const i3=mkInput(card.count, v=>{card.count=num(v);syncSource();});
+            const i4=mkInput(card.life, v=>{card.life=num(v);syncSource();});
+            f1.querySelector(".field-slot").append(i1);
+            f2.querySelector(".field-slot").append(i2);
+            f3.querySelector(".field-slot").append(i3);
+            f4.querySelector(".field-slot").append(i4);
+            grid.append(f1,f2,f3,f4);
+            body.appendChild(grid);
+
+            if("custom_text" in card){
+                const ctl = document.createElement("div");
+                ctl.className="text-xs mt-2";
+                ctl.innerHTML = `<span class="text-gray-400">${esc(dn("custom_text"))}</span>`;
+                const ti = document.createElement("input");
+                ti.className="bg-slate-900 w-full px-1 py-0.5 rounded border border-slate-600 text-sm";
+                ti.value = String(card.custom_text??"");
+                ti.oninput = ()=>{ card.custom_text = ti.value; syncSource(); };
+                ctl.appendChild(ti);
+                body.appendChild(ctl);
+            }
+
+            body.appendChild(tagRowsEditor(card.tag || (card.tag={}), ()=>renderAll()));
+
+            const others = Object.keys(card).filter(k=>!["id","uid","count","life","custom_text","tag"].includes(k) && (typeof card[k]!=="object"||card[k]===null));
+            if(others.length){
+                const ot = document.createElement("div");
+                ot.className = "bg-slate-900/60 rounded p-2 mt-2";
+                ot.innerHTML = `<div class="text-xs font-bold text-sky-300 mb-1">其它属性</div>`;
+                others.forEach(k=>{
+                    const row = document.createElement("div");
+                    row.className = "flex items-center gap-2 my-1";
+                    const lbl = document.createElement("span"); lbl.className="w-32 shrink-0 text-xs truncate"; lbl.innerText = dn(k);
+                    let editor;
+                    if(typeof card[k] === "boolean"){
+                        editor = boolSelect(card[k], nv=>{ card[k]=nv; syncSource(); });
+                        editor.className += " flex-1";
+                    } else {
+                        editor = mkInput(card[k], v=>{ const s=v.trim(); card[k]=s===""?"":(isNaN(Number(s))?s:Number(s)); syncSource(); });
+                    }
+                    row.append(lbl,editor);
+                    ot.appendChild(row);
+                });
+                body.appendChild(ot);
+            }
+
+            const objKeys = Object.keys(card).filter(k=>isObj(card[k]) && k!=="tag");
+            if(objKeys.length){
+                const oj = document.createElement("div");
+                oj.className = "bg-slate-900/60 rounded p-2 mt-2";
+                oj.innerHTML = `<div class="text-xs font-bold text-purple-300 mb-1">对象属性（JSON编辑）</div>`;
+                objKeys.forEach(k=>{
+                    const row = document.createElement("div");
+                    row.className = "my-1";
+                    row.innerHTML = `<span class="text-xs text-gray-400">${esc(dn(k))}</span>`;
+                    const ta = document.createElement("textarea");
+                    ta.rows = 2;
+                    ta.className = "w-full bg-slate-900 px-1 py-0.5 rounded border border-slate-600 font-mono text-xs";
+                    ta.value = JSON.stringify(card[k]);
+                    ta.onblur = ()=>{ try{ card[k]=JSON5.parse(ta.value); syncSource(); setMsg("✅ 对象字段已更新"); }catch(e){ setMsg("⚠️ 该对象JSON语法错误，未保存"); } };
+                    row.appendChild(ta);
+                    oj.appendChild(row);
+                });
+                body.appendChild(oj);
+            }
+
+            block.appendChild(body);
+        }
+        cardContainer.appendChild(block);
+    });
+}
+
+$("addCardBtn").onclick = ()=>{
+    if(!saveData){ setMsg("⚠️ 请先载入存档"); return; }
+    if(!cardPath){ setMsg("⚠️ 请先指定卡牌数组（顶部结构识别）"); return; }
+    const cards = getCards();
+    cards.push(makeInitialCard());
+    selectedCardIndex = cards.length-1;
+    renderAll(); syncSource(); setMsg("✅ 新建卡牌完成（已展开，可编辑）");
+};
+$("dupCardBtn").onclick = ()=>{
+    if(selectedCardIndex<0 || !cardPath){ setMsg("⚠️ 请先展开选中一张卡牌"); return; }
+    const cards = getCards();
+    const copy = JSON.parse(JSON.stringify(cards[selectedCardIndex]));
+    copy.uid = makeUID();
+    cards.push(copy);
+    selectedCardIndex = cards.length-1;
+    renderAll(); syncSource(); setMsg("✅ 卡牌复制完成");
+};
+$("delCardBtn").onclick = ()=>{
+    if(selectedCardIndex<0 || !cardPath){ setMsg("⚠️ 请先展开选中一张卡牌"); return; }
+    getCards().splice(selectedCardIndex,1);
+    selectedCardIndex = -1;
+    renderAll(); syncSource(); setMsg("✅ 卡牌已删除");
+};
+searchCard.oninput = ()=>renderCards();
+
+/* ================= 事件（槽位系统） ================= */
+function renderEvents(){
+    if(!saveData){ eventContainer.innerHTML="<div class='text-gray-400 text-center mt-12'>请先载入存档</div>"; return; }
+    if(!eventPath){ eventContainer.innerHTML="<div class='text-orange-300 text-center mt-12'>未识别到事件数组，请在顶部【存档结构识别】里手动指定</div>"; return; }
+    const evs = getEvents();
+    const q = searchEvent.value.trim();
+    if(evs.length===0){ eventContainer.innerHTML="<div class='text-gray-400 text-center mt-12'>该数组为空，可点【➕新建事件】</div>"; return; }
+    eventContainer.innerHTML = "";
+    evs.forEach((ev,idx)=>{
+        if(!eventMatches(ev, idx, q)) return;
+        const expanded = (idx===selectedEventIndex);
+        const block = document.createElement("div");
+        block.className = "mb-2 bg-slate-700 rounded-lg overflow-hidden";
+        if(expanded) block.classList.add("ring-2","ring-blue-400");
+
+        const head = document.createElement("div");
+        head.className = "w-full px-3 py-1 flex items-center gap-1";
+        const expandBtn = document.createElement("button");
+        expandBtn.className = "flex-1 text-left py-1 flex items-center justify-between gap-2";
+        expandBtn.onclick = ()=>{ selectedEventIndex = (idx===selectedEventIndex ? -1 : idx); selectedCardIndex=-1; renderAll(); };
+        const hspan = document.createElement("span");
+        hspan.className = "text-sm truncate";
+        const enm = ev.custom_name ? String(ev.custom_name)+" " : "";
+        hspan.innerText = `${expanded?"▾":"▸"} ${enm}#${idx}  事件ID:${ev.id??"?"} 时限:${ev.life??0}/${ev.start_life??0}`;
+        const htag = document.createElement("span");
+        htag.className = "text-xs text-gray-400 truncate";
+        htag.innerText = `槽位${slotCount(idx)}`;
+        expandBtn.append(hspan, htag);
+        const eup = btn("↑","bg-slate-600",()=>{
+            if(moveArray(getEvents(), idx, -1)){
+                if(slotPath){ const s=resolvePath(saveData, slotPath); if(Array.isArray(s)) moveArray(s, idx, -1); }
+                selectedEventIndex=idx-1; renderAll(); syncSource();
+            }
+        });
+        const edown = btn("↓","bg-slate-600",()=>{
+            if(moveArray(getEvents(), idx, 1)){
+                if(slotPath){ const s=resolvePath(saveData, slotPath); if(Array.isArray(s)) moveArray(s, idx, 1); }
+                selectedEventIndex=idx+1; renderAll(); syncSource();
+            }
+        });
+        head.append(expandBtn, eup, edown);
+        block.appendChild(head);
+
+        if(expanded){
+            const body = document.createElement("div");
+            body.className = "px-3 pb-3";
+
+            const grid = document.createElement("div");
+            grid.className = "grid grid-cols-2 gap-2 text-xs";
+            const mkF = (label)=>{ const d=document.createElement("div"); d.innerHTML=`<span class="text-gray-400">${label}</span><div class="field-slot"></div>`; return d; };
+            const f1=mkF("事件ID"), f2=mkF("UID"), f3=mkF("时限life"), f4=mkF("起始时限");
+            const i1=mkInput(ev.id, v=>{ev.id=num(v);syncSource();});
+            const i2=mkInput(ev.uid, v=>{ev.uid=num(v);syncSource();});
+            const i3=mkInput(ev.life, v=>{ev.life=num(v);syncSource();});
+            const i4=mkInput(ev.start_life, v=>{ev.start_life=num(v);syncSource();});
+            f1.querySelector(".field-slot").append(i1);
+            f2.querySelector(".field-slot").append(i2);
+            f3.querySelector(".field-slot").append(i3);
+            f4.querySelector(".field-slot").append(i4);
+            grid.append(f1,f2,f3,f4);
+            body.appendChild(grid);
+
+            if("custom_name" in ev){
+                const ctl = document.createElement("div");
+                ctl.className="text-xs mt-2";
+                ctl.innerHTML = `<span class="text-gray-400">${esc(dn("custom_name"))}</span>`;
+                const ti = document.createElement("input");
+                ti.className="bg-slate-900 w-full px-1 py-0.5 rounded border border-slate-600 text-sm";
+                ti.value = String(ev.custom_name??"");
+                ti.oninput = ()=>{ ev.custom_name = ti.value; syncSource(); };
+                ctl.appendChild(ti);
+                body.appendChild(ctl);
+            }
+
+            renderSlots(ev, idx, body);
+
+            block.appendChild(body);
+        }
+        eventContainer.appendChild(block);
+    });
+}
+
+/* 渲染事件槽位 */
+function renderSlots(ev, evIdx, container){
+    const slots = getSlotArray(evIdx);
+    if(!Array.isArray(slots)){
+        container.appendChild(Object.assign(document.createElement("div"),{className:"text-orange-300 text-xs mt-2", innerText:"⚠️ 槽位数据数组结构不符合（应为平行于事件的数组），请到顶部结构识别调整"}));
+        return;
+    }
+    const cntRow = document.createElement("div");
+    cntRow.className = "flex items-center gap-2 text-xs mt-2";
+    const lbl = document.createElement("span"); lbl.className="text-gray-400"; lbl.innerText="卡位槽数";
+    const minus = btn("-","bg-slate-700",()=>{ slots.pop(); renderAll(); syncSource(); });
+    const cntInp = document.createElement("input");
+    cntInp.type="number"; cntInp.className="bg-slate-900 w-16 px-1 py-0.5 rounded border border-slate-600 text-sm";
+    cntInp.value = slots.length;
+    cntInp.autocomplete="off";
+    cntInp.oninput = ()=>{ const n=num(cntInp.value); while(slots.length<n) slots.push(null); if(slots.length>n) slots.length=n; renderAll(); syncSource(); };
+    const plus = btn("+","bg-slate-700",()=>{ slots.push(null); renderAll(); syncSource(); });
+    cntRow.append(lbl, minus, cntInp, plus);
+    container.appendChild(cntRow);
+
+    const title = document.createElement("div");
+    title.className = "text-xs font-bold text-violet-300 mt-2 mb-1";
+    title.innerText = "卡位槽（空槽点【填入初始卡牌】可自己填卡）";
+    container.appendChild(title);
+
+    if(slots.length===0){
+        const e = document.createElement("div"); e.className="text-gray-500 text-xs"; e.innerText="还没有槽位，点 + 添加";
+        container.appendChild(e);
+    }
+
+    slots.forEach((s, si)=>{
+        const sbox = document.createElement("div");
+        sbox.className = "bg-slate-900/60 rounded p-2 mt-1";
+        if(!isObj(s)){
+            const e = document.createElement("div"); e.className="text-xs text-gray-500 mb-1";
+            e.innerText = `槽位 ${si}：空（null）`;
+            sbox.appendChild(e);
+            const ops = document.createElement("div");
+            ops.className="flex gap-2";
+            const fill = btn("➕填入初始卡牌","bg-violet-600",()=>{
+                slots[si] = makeInitialCard();
+                renderAll(); syncSource(); setMsg("✅ 已填入初始卡牌数据，可自行编辑");
+            });
+            const del = btn("删除此槽","bg-red-700",()=>{ slots.splice(si,1); renderAll(); syncSource(); });
+            ops.append(fill, del);
+            sbox.appendChild(ops);
+        } else {
+            const e = document.createElement("div"); e.className="text-xs text-gray-400 mb-1";
+            e.innerText = `槽位 ${si}：角色`;
+            sbox.appendChild(e);
+            const grid = document.createElement("div");
+            grid.className = "grid grid-cols-2 gap-1 text-xs";
+            const mkF = (label)=>{ const d=document.createElement("div"); d.innerHTML=`<span class="text-gray-400">${label}</span><div class="field-slot"></div>`; return d; };
+            const g1=mkF("ID"), g2=mkF("UID"), g3=mkF("堆叠"), g4=mkF("时限");
+            const j1=mkInput(s.id, v=>{s.id=num(v);syncSource();});
+            const j2=mkInput(s.uid, v=>{s.uid=num(v);syncSource();});
+            const j3=mkInput(s.count, v=>{s.count=num(v);syncSource();});
+            const j4=mkInput(s.life, v=>{s.life=num(v);syncSource();});
+            g1.querySelector(".field-slot").append(j1);
+            g2.querySelector(".field-slot").append(j2);
+            g3.querySelector(".field-slot").append(j3);
+            g4.querySelector(".field-slot").append(j4);
+            grid.append(g1,g2,g3,g4);
+            sbox.appendChild(grid);
+            if("custom_text" in s){
+                const ctl = document.createElement("div");
+                ctl.className="text-xs mt-1";
+                ctl.innerHTML = `<span class="text-gray-400">${esc(dn("custom_text"))}</span>`;
+                const ti = document.createElement("input");
+                ti.className="bg-slate-900 w-full px-1 py-0.5 rounded border border-slate-600 text-sm";
+                ti.value = String(s.custom_text??"");
+                ti.oninput = ()=>{ s.custom_text = ti.value; syncSource(); };
+                ctl.appendChild(ti);
+                sbox.appendChild(ctl);
+            }
+            sbox.appendChild(tagRowsEditor(s.tag || (s.tag={}), ()=>renderAll()));
+            const ops = document.createElement("div");
+            ops.className="flex gap-2 mt-1";
+            const back = btn("移回手牌","bg-amber-700",()=>{
+                getCards().push(s);
+                slots[si] = null;
+                renderAll(); syncSource(); setMsg("✅ 角色已移回手牌");
+            });
+            const del = btn("清空此槽","bg-red-700",()=>{ slots[si]=null; renderAll(); syncSource(); });
+            ops.append(back, del);
+            sbox.appendChild(ops);
+        }
+        container.appendChild(sbox);
+    });
+}
+
+$("addEventBtn").onclick = ()=>{
+    if(!saveData){ setMsg("⚠️ 请先载入存档"); return; }
+    if(!eventPath){ setMsg("⚠️ 请先指定事件数组（顶部结构识别）"); return; }
+    const evs = getEvents();
+    let t = { uid:makeUID(), id:0, new_born:true, is_show:false, start:false, start_round:0, start_life:0, life:0, cards:[], custom_name:"" };
+    if(evs.length>0){ t = JSON.parse(JSON.stringify(evs[0])); t.uid=makeUID(); t.cards=[]; }
+    evs.push(t);
+    if(slotPath){
+        const s = resolvePath(saveData, slotPath);
+        if(Array.isArray(s)) s.push([]);
+    }
+    selectedEventIndex = evs.length-1;
+    renderAll(); syncSource(); setMsg("✅ 新建事件完成（已展开）");
+};
+$("delEventBtn").onclick = ()=>{
+    if(selectedEventIndex<0 || !eventPath){ setMsg("⚠️ 请先展开选中一个事件"); return; }
+    getEvents().splice(selectedEventIndex,1);
+    if(slotPath){
+        const s = resolvePath(saveData, slotPath);
+        if(Array.isArray(s)) s.splice(selectedEventIndex,1);
+    }
+    selectedEventIndex = -1;
+    renderAll(); syncSource(); setMsg("✅ 事件已删除");
+};
+searchEvent.oninput = ()=>renderEvents();
+
+/* ================= 苏丹卡池 ================= */
+function renderPool(){
+    if(!saveData){ poolContainer.innerHTML="<div class='text-gray-400 text-center mt-12'>请先载入存档</div>"; return; }
+    if(!poolPath){ poolContainer.innerHTML="<div class='text-orange-300 text-center mt-12'>未识别到苏丹卡池，可点【➕添加苏丹卡】自动创建</div>"; return; }
+    const pool = getPool();
+    if(pool.length===0){ poolContainer.innerHTML="<div class='text-gray-400 text-center mt-12'>卡池为空</div>"; return; }
+    poolContainer.innerHTML = "";
+    pool.forEach((entry,idx)=>{
+        const div = document.createElement("div");
+        div.className = "p-2 mb-1 bg-slate-700 rounded text-sm";
+        const idxLine = document.createElement("div");
+        idxLine.className = "text-xs text-gray-400 mb-1";
+        idxLine.innerText = `#${idx}`;
+        div.appendChild(idxLine);
+        if(isObj(entry)){
+            // 对象条目：ID + UID + 其它字段（布尔自动false/true下拉）
+            const row1 = document.createElement("div");
+            row1.className = "flex items-center gap-2 my-1";
+            row1.innerHTML = `<span class="text-gray-400 w-16 shrink-0">ID</span>`;
+            row1.append(mkInput(entry.id, v=>{ entry.id = num(v); syncSource(); }));
+            div.appendChild(row1);
+            if("uid" in entry){
+                const row2 = document.createElement("div");
+                row2.className = "flex items-center gap-2 my-1";
+                row2.innerHTML = `<span class="text-gray-400 w-16 shrink-0">UID</span>`;
+                row2.append(mkInput(entry.uid, v=>{ entry.uid = num(v); syncSource(); }));
+                div.appendChild(row2);
+            }
+            Object.keys(entry).forEach(k=>{
+                if(k==="id"||k==="uid") return;
+                const v = entry[k];
+                if(isObj(v)) return;
+                const row = document.createElement("div");
+                row.className = "flex items-center gap-2 my-1";
+                const lbl = document.createElement("span"); lbl.className="w-28 shrink-0 text-xs truncate"; lbl.innerText = dn(k);
+                let editor;
+                if(typeof v === "boolean"){
+                    editor = boolSelect(v, nv=>{ entry[k]=nv; syncSource(); });
+                } else {
+                    editor = mkInput(v, nv=>{ const s=nv.trim(); entry[k]=s===""?"":(isNaN(Number(s))?s:Number(s)); syncSource(); });
+                }
+                row.append(lbl, editor);
+                div.appendChild(row);
+            });
+        } else {
+            const row = document.createElement("div");
+            row.className = "flex items-center gap-2";
+            const inp = mkInput(entry, v=>{ getPool()[idx]=num(v); syncSource(); });
+            inp.className += " w-28";
+            row.append(inp);
+            div.appendChild(row);
+        }
+        const ops = document.createElement("div");
+        ops.className = "flex gap-2 mt-1";
+        ops.appendChild(btn("删除","bg-red-700",()=>{ getPool().splice(idx,1); renderPool(); syncSource(); }));
+        div.appendChild(ops);
+        poolContainer.appendChild(div);
+    });
+}
+/* 一键添加苏丹卡到手牌 */
+$("addSudanToHandBtn").onclick = ()=>{
+    if(!saveData){ setMsg("⚠️ 请先载入存档"); return; }
+    if(!cardPath){ setMsg("⚠️ 请先指定卡牌数组（顶部结构识别）"); return; }
+    const id = num($("sudanCardSel").value);
+    const entry = SUDAN_CARDS.find(c=>c.id===id) || SUDAN_CARDS[15];
+    const card = makeSudanCard(entry);
+    getCards().push(card);
+    selectedCardIndex = getCards().length-1;
+    renderAll(); syncSource();
+    setMsg(`✅ 已把「${entry.name}」加入手牌（可在卡牌页查看/编辑）`);
+    $("sudanResult").innerText = `已添加：${entry.name}（ID:${entry.id}）。当前手牌共 ${getCards().length} 张卡。`;
+};
+$("togglePoolBtn").onclick = ()=>{
+    const w = $("poolWrap");
+    w.classList.toggle("hidden");
+    if(!w.classList.contains("hidden")) renderPool();
+};
+$("addSudanBtn").onclick = ()=>{
+    if(!saveData){ setMsg("⚠️ 请先载入存档"); return; }
+    if(!poolPath){ setPath(saveData, ["sudan_pool_cards"], []); poolPath=["sudan_pool_cards"]; }
+    const id = num($("poolCardId").value) || 2010016;
+    getPool().push(makeInitialPoolEntry(id));
+    renderStructBar(); renderPool(); syncSource();
+    setMsg(`✅ 已添加苏丹卡（ID:${id}）。若游戏里仍显示“已折”，请把存档中苏丹卡池的一段结构贴给我，我按真实字段对接`);
+};
+$("clearPoolBtn").onclick = ()=>{
+    if(!saveData || !poolPath){ setMsg("⚠️ 请先载入存档"); return; }
+    getPool().splice(0, getPool().length);
+    renderPool(); syncSource(); setMsg("✅ 卡池已清空");
+};
+
+/* ================= 名称词典 ================= */
+function renderDict(){
+    const c = $("dictContainer");
+    c.innerHTML = "";
+    Object.keys(nameDict).forEach(k=>{
+        const row = document.createElement("div");
+        row.className = "flex items-center gap-2 my-1";
+        const en = document.createElement("input");
+        en.className = "bg-slate-900 w-40 px-2 py-0.5 rounded border border-slate-600 text-sm";
+        en.value = k;
+        en.oninput = ()=>{ const nk=en.value.trim(); if(nk && nk!==k){ nameDict[nk]=nameDict[k]; delete nameDict[k]; saveDict(); renderDict(); setMsg("✅ 词典已更新"); } };
+        const zh = document.createElement("input");
+        zh.className = "bg-slate-900 flex-1 px-2 py-0.5 rounded border border-slate-600 text-sm";
+        zh.value = nameDict[k];
+        zh.oninput = ()=>{ nameDict[k]=zh.value; saveDict(); };
+        const del = btn("删","bg-red-700",()=>{ delete nameDict[k]; saveDict(); renderDict(); });
+        row.append(en, zh, del);
+        c.appendChild(row);
+    });
+    if(Object.keys(nameDict).length===0) c.innerHTML = "<div class='text-gray-400 text-sm'>词典为空</div>";
+}
+$("addDictBtn").onclick = ()=>{
+    const en = $("dictEn").value.trim();
+    const zh = $("dictZh").value.trim();
+    if(!en){ setMsg("⚠️ 请输入英文键名"); return; }
+    nameDict[en] = zh || en;
+    saveDict(); renderDict();
+    $("dictEn").value=""; $("dictZh").value="";
+    setMsg(`✅ 已保存 ${en} → ${zh||en}`);
+};
+
+/* ================= 导出 ================= */
+function download(obj, name){
+    const str = JSON.stringify(obj, null, 2);
+    const blob = new Blob([str], {type:"application/json"});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = name; a.click();
+    URL.revokeObjectURL(url);
+}
+exportBtn.onclick = ()=>{ if(!saveData) return; download(saveData, fileName); setMsg(`✅ 文件已下载：${fileName}`); };
+backupBtn.onclick = ()=>{
+    if(!saveData) return;
+    const t = new Date().toISOString().slice(0,19).replace(/[:T]/g,"-");
+    download(saveData, `backup_${t}_${fileName}`);
+    setMsg("✅ 备份已导出");
+};
+
+/* ================= 启动 ================= */
+loadDict();
+renderDict();
+renderSudanSel();
+</script>
+</body>
+</html>
