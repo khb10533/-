@@ -2,7 +2,7 @@
 
 《苏丹的游戏》存档编辑器。**单个 HTML 文件，下载后断网可用**，不需要安装、不需要联网、不上传你的存档。
 
-在线使用：<https://你的用户名.github.io/suyou-save-editor/>
+在线使用：<https://khb10533.github.io/suyou-save-editor/>
 
 ## 功能
 
